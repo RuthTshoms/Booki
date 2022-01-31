@@ -3,31 +3,39 @@
 <head>
     <script src="https://kit.fontawesome.com/8b749a5e71.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" href="a.css" type="text/css" media="screen" />
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css/" /> <!-- lien du html vers le fichier css-->
+    <meta charset="UTF-8"> <!-- encodage Unicode -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>  <!-- Titre de l'onglet navigateur -->
 </head>
-
 <body>
+  <!-- En-tête infos principales-->
   <header>
-    <p><img src="images/logo/Booki.png" alt="logo Booki" /></p><br />
-    <p><strong>Trouvez votre hébergement pour des vacances de rêves</strong></p>
+    <img src="images/logo/Booki.png" alt="logo Booki" />
+    <h1><strong>Trouvez votre hébergement pour des vacances de rêves</strong></h1>
     <p>En plein centre ville ou en pleine nature</p>
-    <nav> 
-      <a href="#Hébergements">Hébergements</a> <!-- NavBar-->
+    <nav> <!-- NavBar -->
+      <a href="#Hébergements">Hébergements</a>
       <a href="#Activités">Activités</a>
     </nav>
+    <form method="post" action="traitement.php"> <!-- Barre de recherche -->
+      <div>
+        <i class="fa-brands fa-periscope"></i>
+        <input type="text" name="ville" id="ville" value="Marseille, France" /><input type="submit" value="Rechercher" />
+      </div>
+    </form>
+    <label for="Filtres">Filtres</label> <!-- filtre -->
     <i class="fa-solid fa-info"></i>
     <a href="#Plus de logements">Plus de 500 logements sont disponibles dans cette ville</a><br />
   </header>
-
+  <!-- Contenu principal --> 
   <main>
+    <!-- Section -->
     <section>
-    <h1><strong>Hébergements à Marseille</strong></h1>
+      <h1><strong>Hébergements à Marseille</strong></h1>
     <div>
-    <a href="#Auberge La Cannebière">Auberge La Cannebière</a><br />
+      <a href="#Auberge La Cannebière">Auberge La Cannebière</a><br />
       <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge La Cannebière" />
       <p>Nuit à partir de <strong>25€</strong></p>
       <i class="fas fa-star"></i>
@@ -77,11 +85,12 @@
       <i class="fas fa-star"></i><br />
     </div>
     <a href="#Afficher plus">Afficher plus</a><br />
-  </section>
-  <aside>
-    <div>
+   </section>
+  <!--Aside-->
+   <aside>
       <h1><strong>Les plus populaires</strong></h1>
       <i class="fa-chart-line"></i>
+      <div>
         <a href="#Hôtel Le solei du matin">Hôtel Le soleil du matin</a><br />
           <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Hôtel Le soleil matin" />
           <p>Nuit à partir de<strong> 128€</strong></p>
@@ -106,9 +115,10 @@
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="far fa-star"></i><br />
-    </div>
-  </aside>
-
+      </div>
+   </aside>
+  <!-- Section-->
+   <section>
     <h1><strong>Activités à Marseille</strong></h1>
     <div>
         <a href="#Vieux Port">Vieux Port</a><br />
@@ -124,8 +134,9 @@
         <a href="#Parc Longchamp">Parc Longchamp</a><br />
           <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo parc Longchamp" />
     </div>
+   </section>
   </main>
-    
+  <!-- Pied de page -->
   <footer> 
     <p>A propos</p>
     <a href="#Fonctionnement du site">Fonctionnement du site</a><br />
