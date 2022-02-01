@@ -1,23 +1,33 @@
 * {
   font-family: 'Raleway', sans-serif;
+  }
 
-h1
-{
-  font-weight: bold;
-  font-size: ; 
-}
+  h1
+  {
+    font-size: 20px;
+  }
+ 
+  .category
+  {
+    font-weight: bold;
+  }
+ 
+  .complement 
+  {
+    color: grey;
+  }
+  
+  p
+  {
+    font-weight: bold;
+  }
 
-.category
-{
-  font-weight: bold;
-}
+  .name
+  {
+    font-weight: bold;
+  }
 
-.complement 
-{
-  color: grey;
-}
-
-p
-{
-  font-weight: bold;
-}
+  a
+  {
+    text-decoration: none;
+  }
