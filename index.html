@@ -4,7 +4,7 @@
     <script src="https://kit.fontawesome.com/8b749a5e71.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" /> <!-- lien du html vers le fichier css-->
     <meta charset="UTF-8"> <!-- encodage Unicode -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,20 +23,23 @@
     </nav>
     <form method="post" action="traitement.php"> <!-- Barre de recherche -->
       <div> <!-- à supp ?-->
-        <i class="fa-brands fa-periscope"></i>
+        <i class="fa-brands fa-periscope" id="maps"></i>
         <input type="text" name="ville" id="ville" value="Marseille, France" disabled="disabled" /><input type="submit" value="Rechercher" />
       </div> <!-- à supp ?-->
     </form>
     <div> <!-- Filtres -->
       <label for="Filtres">Filtres</label> 
-      <i class="fa-solid fa-coins"></i><input type="text" name="filtres" class="option" value="Economique" disabled="disabled" />
-      <i class="fa-solid fa-child"></i><input type="text" name="filtres" class="option" value="Familial" disabled="disabled" />
-      <i class="fa-solid fa-heart"></i><input type="text" name="filtres" class="option" value="Romantique" disabled="disabled" />
-      <i class="fa-solid fa-cat"></i><input type="text" name="filtres" class="option" value="Animaux autorisés" disabled="disabled" />
+      <i class="fa-solid fa-coins"></i>
+        <input type="text" name="filtres" class="option" value="Economique" disabled="disabled" />
+      <i class="fa-solid fa-child"></i>
+        <input type="text" name="filtres" class="option" value="Familial" disabled="disabled" />
+      <i class="fa-solid fa-heart"></i>
+        <input type="text" name="filtres" class="option" value="Romantique" disabled="disabled" />
+      <i class="fa-solid fa-cat"></i>
+        <input type="text" name="filtres" class="option" value="Animaux autorisés" disabled="disabled" />
     </div>
     <i class="fa-solid fa-info"></i> 
-    <div class="link1">
-     <a href="#link1">Plus de 500 logements sont disponibles dans cette ville</a><br />
+    <a href="#link" class="link">Plus de 500 logements sont disponibles dans cette ville</a><br />
     </div>
   </header>
   <!-- Contenu principal --> 
@@ -49,99 +52,108 @@
         <a href="#name">Auberge La Cannebière</a><br />
         <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge La Cannebière" />
         <p class="complement">Nuit à partir de <strong>25€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="far fa-star"></i><br />
+        <i class="far fa-star"></i></div><br />
       </div>
       <div class="name">
         <a href="#name">Hôtel du port</a><br />
         <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo Hôtel du port" />
         <p class="complement">Nuit à partir de <strong>52€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br />
+        <i class="fas fa-star"></i></div><br />
       </div>
       <div class="name">
         <a href="#name">Hôtel Les mouettes</a><br />
         <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo Hôtel Les mouettes" />
         <p class="complement">Nuit à partir de <strong>76€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="far fa-star"></i><br />
+        <i class="far fa-star"></i></div><br />
       </div>
       <div class="name">
         <a href="#name">Hôtel de la mer</a><br />
         <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo Hôtel de la mer" />
         <p class="complement">Nuit à partir de <strong>46€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="far fa-star"></i>
-        <i class="far fa-star"></i><br />
+        <i class="far fa-star"></i></div><br />
       </div>
       <div class="name">
         <a href="#name">Auberge Le Panier</a><br />
         <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo Auberge Le Panier" />
         <p class="complement">Nuit à partir de <strong>23€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="far fa-star"></i><br />
+        <i class="far fa-star"></i></div><br />
       </div>
       <div class="name">
         <a href="#name">Hôtel chez Amina</a><br />
         <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo Hôtel chez Amina" />
         <p class="complement">Nuit à partir de <strong>96€</strong></p>
+        <div class="star">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br />
+        <i class="fas fa-star"></i></div><br />
       </div>
     </div>
-    <a href="#Afficher plus">Afficher plus</a><br />
+    <a href="#Afficher plus" id="more">Afficher plus</a><br />
    </section>
   <!--Aside-->
    <aside>
       <p class="category"><strong>Les plus populaires</strong></p>
-      <i class="fa-chart-line"></i>
+      <i class="fa-chart-line" id="icon2" id="graphic"></i>
       <div>
         <div class="name">
           <a href="#name">Hôtel Le soleil du matin</a><br />
           <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Hôtel Le soleil matin" />
           <p class="complement">Nuit à partir de<strong> 128€</strong></p>
+          <div class="icon">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i><br />
+          <i class="fas fa-star"></i></div><br />
         </div>
         <div class="name">
           <a href="#name">Au coeur de l'eau<br />Chambre d'hôtes</a><br />
           <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo Au coeur de l'eau Chambre d'hôtes" />
           <p class="complement">Nuit à partir de<strong> 71€</strong></p>
+          <div class="icon">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="far fa-star"></i><br />
+          <i class="far fa-star"></i></div><br />
         </div>
         <div class="name">
           <a href="#name">Hôtel Tout bleu et blanc</a><br />
           <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo Hôtel Tout bleu et blanc" />
           <p class="complement">Nuit à partir de<strong> 68€</strong></p>
+          <div class="icon">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="far fa-star"></i><br />
+          <i class="far fa-star"></i></div><br />
         </div>
       </div>
    </aside>
@@ -167,20 +179,20 @@
   <!-- Pied de page -->
   <footer> 
     <p>A propos</p>
-      <div class="link1">
-        <a href="#link1">Fonctionnement du site</a><br />
-        <a href="#link1">Conditions générales de vente</a><br />
-        <a href="#link1">Données et confidentialités</a><br />
+      <div>
+        <a href="#link" class="link">Fonctionnement du site</a><br />
+        <a href="#link" class="link">Conditions générales de vente</a><br />
+        <a href="#link" class="link">Données et confidentialités</a><br />
       </div>
     <p>Nos hébergements</p>
-      <div class="link1">
-        <a href="#link1">Charte qualité</a><br />
-        <a href="#link1">Soumettre votre hôtel</a><br />
+      <div>
+        <a href="#link" class="link">Charte qualité</a><br />
+        <a href="#link" class="link">Soumettre votre hôtel</a><br />
       </div>
     <p>Assistance</p>
-     <div class="link1">
-       <a href="#Centre d'aide">Centre d'aide</a><br />
-       <a href="#Nous contacter">Nous contacter</a><br />
+     <div>
+       <a href="#link" class="link">Centre d'aide</a><br />
+       <a href="#link" class="link">Nous contacter</a><br />
     </div>
   </footer>
 </body>
