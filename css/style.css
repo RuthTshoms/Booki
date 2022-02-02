@@ -7,32 +7,27 @@
     font-size: 20px;
   }
  
-  .category
+  .category, p, .name
   {
     font-weight: bold;
   }
  
-  .complement 
+  .complement, .link
   {
     color: grey;
   }
   
-  p
-  {
-    font-weight: bold;
-  }
-
-  .name
-  {
-    font-weight: bold;
-  }
-
   a
   {
     text-decoration: none;
   }
 
-  .link1
+  .star
   {
-    color: grey;
+    color: blue;
+  }
+
+  .name
+  {
+    color: black;
   }
