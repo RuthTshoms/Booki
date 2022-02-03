@@ -7,12 +7,12 @@
     font-size: 20px;
   }
  
-  .category, p, .name
+  .category, p, .name, #more, #city, .option, #search
   {
     font-weight: bold;
   }
  
-  .complement, .link
+  .complement, .link, .menu
   {
     color: grey;
   }
@@ -22,12 +22,27 @@
     text-decoration: none;
   }
 
-  .star
+  .star,.menu:hover
   {
-    color: blue;
+    color: #0065FC;
   }
 
-  .name
+  .name, #more, #city, .option
   {
     color: black;
+  }
+
+  #search
+  {
+    color: white;
+  }
+
+  footer
+  {
+    background-color: #F2F2F2;
+  }
+
+  #search
+  {
+    background-color: #0065FC;
   }
