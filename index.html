@@ -18,13 +18,13 @@
     <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
     <p class="complement">En plein centre ville ou en pleine nature</p>
     <nav> <!-- Menu de navigation -->
-      <a href="#Hébergements">Hébergements</a>
-      <a href="#Activités">Activités</a>
+      <a href="#menu" class="menu">Hébergements</a>
+      <a href="#menu" class="menu">Activités</a>
     </nav>
     <form method="post" action="traitement.php"> <!-- Barre de recherche -->
       <div> <!-- à supp ?-->
         <i class="fa-brands fa-periscope" id="maps"></i>
-        <input type="text" name="ville" id="ville" value="Marseille, France" disabled="disabled" /><input type="submit" value="Rechercher" />
+        <input type="text" name="ville" id="city" value="Marseille, France" disabled="disabled" /><input type="submit" id="search" value="Rechercher" />
       </div> <!-- à supp ?-->
     </form>
     <div> <!-- Filtres -->
@@ -126,7 +126,7 @@
           <a href="#name">Hôtel Le soleil du matin</a><br />
           <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Hôtel Le soleil matin" />
           <p class="complement">Nuit à partir de<strong> 128€</strong></p>
-          <div class="icon">
+          <div class="star">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -137,7 +137,7 @@
           <a href="#name">Au coeur de l'eau<br />Chambre d'hôtes</a><br />
           <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo Au coeur de l'eau Chambre d'hôtes" />
           <p class="complement">Nuit à partir de<strong> 71€</strong></p>
-          <div class="icon">
+          <div class="star">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -148,7 +148,7 @@
           <a href="#name">Hôtel Tout bleu et blanc</a><br />
           <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo Hôtel Tout bleu et blanc" />
           <p class="complement">Nuit à partir de<strong> 68€</strong></p>
-          <div class="icon">
+          <div class="star">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
