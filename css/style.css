@@ -27,7 +27,7 @@
     color: #0065FC;
   }
 
-  .name, #more, #city, .option
+  .name a, #more, #city, .option
   {
     color: black;
   }
