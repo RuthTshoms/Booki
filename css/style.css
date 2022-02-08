@@ -22,7 +22,7 @@
     text-decoration: none;
   }
 
-  .star, .d:hover
+  .star
   {
     color: #0065FC;
   }
@@ -48,3 +48,13 @@
     font-size: 20px;
   }
 
+  img 
+  {
+    border-radius: 30px;
+  }
+
+  .d:hover
+  {
+    color: #0065FC;
+    text-decoration: overline #0065FC;
+  }
