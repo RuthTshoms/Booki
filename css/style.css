@@ -7,12 +7,12 @@
     font-size: 20px;
   }
  
-  .category, p, .name, #more, #city, .option, #search
+  #Hébergements, #Activités, h2, .box #more, #city, .option, #search, span
   {
     font-weight: bold;
   }
  
-  .complement, .link, .menu
+  .complement, .link, .d
   {
     color: grey;
   }
@@ -22,19 +22,14 @@
     text-decoration: none;
   }
 
-  .star,.menu:hover
+  .star, .d:hover
   {
     color: #0065FC;
   }
 
-  .name a, #more, #city, .option
+  .box a, #more, #city, .option
   {
     color: black;
-  }
-
-  #search
-  {
-    color: white;
   }
 
   footer
@@ -45,4 +40,11 @@
   #search
   {
     background-color: #0065FC;
+    color: white;
   }
+
+  h2
+  {
+    font-size: 20px;
+  }
+
