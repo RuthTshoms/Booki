@@ -7,9 +7,14 @@
     font-size: 20px;
   }
  
-  #Hébergements, #Activités, h2, .box #more, #city, .option, #search, span
+  #Hébergements, #Activités, h2, .item, #more, #city, .option, #search, span
   {
     font-weight: bold;
+  }
+
+  #Hébergements
+  {
+    font-size: 30px;
   }
  
   .complement, .link, .d
@@ -27,12 +32,18 @@
     color: #0065FC;
   }
 
-  .box a, #more, #city, .option
+  .d:hover
+  {
+    color: #0065FC;
+    text-decoration: overline #0065FC;
+  }
+
+  .item a, #more, #city, .option
   {
     color: black;
   }
 
-  footer
+  footer, section, aside, #box1
   {
     background-color: #F2F2F2;
   }
@@ -51,10 +62,20 @@
   img 
   {
     border-radius: 30px;
+    width: 250px;
+    height: 100px;
   }
 
-  .d:hover
+  .box1
   {
-    color: #0065FC;
-    text-decoration: overline #0065FC;
+   display: flex; /** appeler la propriété flex **/
+   flex-direction: column; /** déf de mon axe ppal **/
   }
+
+  .block
+  {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  
