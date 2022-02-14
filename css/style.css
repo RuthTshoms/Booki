@@ -1,18 +1,13 @@
 * {
   font-family: 'Raleway', sans-serif;
   }
-
-  h1
-  {
-    font-size: 20px;
-  }
  
-  #Hébergements, #Activités, h2, .item, #more, #city, .option, #search
+  #Hebergements, #Activites, h2, .item, #more, #city, .option, #search
   {
     font-weight: bold;
   }
  
-  .complement, .link, .nav
+  .header_info, .complement, .link, .nav
   {
     color: grey;
   }
@@ -27,12 +22,25 @@
     color: #0065FC;
   }
 
+  header
+  {
+    display: flex;
+    padding: 30px;
+  }
+
   nav
   {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 30px; 
+    float : right; /* excliure l'élément du flux */
+    margin: 30px;
+    /* margin: 0px 30px, 0px, 0px; */
+  }
+
+  h1
+  {
+    font-size: 20px;
   }
 
   .filtre
@@ -77,11 +85,6 @@
     padding: 35px;
   }
 
-  header
-  {
-    padding: 30px;
-  }
-
   img 
   {
     border-radius: 30px;
@@ -102,13 +105,13 @@
     flex-direction: row;
   }
 
-  #box1, #box2
+  #container1, #container2
   {
     border-radius: 20px;
     background-color: #F2F2F2;
   }
 
-  #box1
+  #container1
   {
    display: flex; /** appeler la propriété flex **/
    flex-direction: column; /** déf de mon axe ppal **/
@@ -120,7 +123,7 @@
    padding-top: 15px;
   }
 
-  #box2
+  #container2
   {
     display: flex;
     flex-direction: column;
