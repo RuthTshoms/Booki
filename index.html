@@ -14,36 +14,31 @@
 <body>
   <!-- En-tête infos principales-->
   <header>
-    <img src="images/logo/Booki.png" alt="logo Booki" id="logo" />
+    <img src="images/logo/Booki.png" alt="logo Booki" id="logo_Booki" />
     <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
     <p class="complement">En plein centre ville ou en pleine nature</p></a>
     <nav> <!-- Menu de navigation -->
-      <a href="#Hebergements" class="d">Hébergements</a>
-      <a href="#Activites" class="d">Activités</a>
+      <a href="#Hebergements" class="nav">Hébergements</a>
+      <a href="#Activites" class="nav">Activités</a>
     </nav>
     <form method="post" action="#"> <!-- Barre de recherche -->
         <i class="fa fa-brands fa-periscope" id="maps"></i>
         <input type="text" name="ville" id="city" placeholder="Marseille, France" /><input type="submit" id="search" value="Rechercher" />
     </form>
     <div> <!-- Filtres -->
-      <label for="Filtres">Filtres</label> 
-      <i class="fa fa-solid fa-coins"></i>
-        <input type="text" name="filtres" class="option" value="Economique" disabled="disabled" />
-      <i class="fa fa-solid fa-child"></i>
-        <input type="text" name="filtres" class="option" value="Familial" disabled="disabled" />
-      <i class="fa fa-solid fa-heart"></i>
-        <input type="text" name="filtres" class="option" value="Romantique" disabled="disabled" />
-      <i class="fa fa-solid fa-cat"></i>
-        <input type="text" name="filtres" class="option" value="Animaux autorisés" disabled="disabled" />
+      <span><i class="fa fa-solid fa-coins" class="filtre"></i>Economique</span> 
+      <span><i class="fa fa-solid fa-child" class="filtre"></i>Familial</span>
+      <span><i class="fa fa-solid fa-heart" class="filtre"></i>Romantique</span>
+      <span><i class="fa fa-solid fa-cat" class="filtre"></i>Animaux autorisés</span>
     </div>
     <i class="fa fa-solid fa-info"></i> 
     <a href="#" class="link">Plus de 500 logements sont disponibles dans cette ville</a><br />
     </div>
   </header>
   <!-- Contenu principal --> 
-  <main id="main">
+  <main>
     <!-- Section -->
-    <section id="box1"><h2 id="Hébergements"><strong>Hébergements à Marseille</strong></h2>
+    <section id="box1"><h2 id="Hebergements"><strong>Hébergements à Marseille</strong></h2>
 
       <div class="block">
 
@@ -140,7 +135,7 @@
    </section>
   <!--Aside-->
    <aside id="box2"><h2><strong>Les plus populaires</strong></h2>
-      <i class="fa fa-chart-line" id="icon2" id="graphic"></i>
+      <i class="fa fa-chart-line"></i>
       <div>
         <div class="item">
           <a href="#">Hôtel Le soleil du matin<br />
@@ -185,9 +180,9 @@
         </div>
       </div>
    </aside>
-  <!-- Section -->
+  <!-- Section 
     <section id="box3">
-      <h2 id="Activités"><strong>Activités à Marseille</strong></h2>
+      <h2 id="Activites"><strong>Activités à Marseille</strong></h2>
       <div">
       <div class="item">
         <a href="#">Vieux Port<br />
@@ -208,7 +203,7 @@
         <a href="#">Parc Longchamp<br />
         <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo parc Longchamp"></a><br />
      </div>
-   </section>
+   </section> -->
   </main>
   <!-- Pied de page-->
   <footer> 

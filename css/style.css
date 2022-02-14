@@ -12,7 +12,7 @@
     font-weight: bold;
   }
  
-  .complement, .link, .d
+  .complement, .link, .nav
   {
     color: grey;
   }
@@ -27,7 +27,21 @@
     color: #0065FC;
   }
 
-  .d:hover
+  nav
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px; 
+  }
+
+  .filtre
+  {
+    background-color: #cce2f5;
+    border-radius :s
+  }
+
+  .nav:hover
   {
     color: #0065FC;
     text-decoration: overline #0065FC;
@@ -54,6 +68,20 @@
     font-size: 20px;
   }
 
+  #logo_Booki
+  {
+    display: flex;
+    flex-direction: row; /* voir si nécessaire de flex si par défaut c'est déjà OK */
+    width: 85px;
+    height: 55px;
+    padding: 35px;
+  }
+
+  header
+  {
+    padding: 30px;
+  }
+
   img 
   {
     border-radius: 30px;
@@ -68,7 +96,7 @@
     height: 130px;
   }
 
-  #main
+  main
   {
     display: flex;
     flex-direction: row;
@@ -109,4 +137,9 @@
     justify-content: space-between;
     justify-content: space-around; /* à voir si nécéssaire de conserver */ 
   }
+
+  /* .item
+  {
+    background-color: white; 
+  } */
   
