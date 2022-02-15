@@ -2,12 +2,12 @@
   font-family: 'Raleway', sans-serif;
   }
  
-  #Hebergements, #Activites, h2, .item, #more, #localisation, #Rechercher
+  #Hebergements, #Activites, h2, .item, #more, #lieux, #Rechercher, #lieux
   {
     font-weight: bold;
   }
  
-  .header_info, .complement, .link, .nav
+  #environnement, #plus_logements, .complement, .link, .nav
   {
     color: grey;
   }
@@ -45,7 +45,39 @@
   h1
   {
     font-size: 20px;
+    margin: 0px 30px 13px 20px;
+  }
+
+ #environnement
+  {
+    font-size: 15px;
     margin: 0px 30px 15px 20px;
+    padding: 0px;
+  }
+
+  form
+  {
+    margin: 10 30px 35px 30px;
+  }
+
+  #filtre
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #Rechercher
+  {
+    background-color: #0065FC;
+    color: white;
+    padding: 8px;
+    border-radius: 0 12px 12px 0;
+  }
+
+  #maps
+  {
+    background-color: grey;
   }
 
   .filtre
@@ -73,12 +105,6 @@
   footer, section
   {
     background-color: #F2F2F2;
-  }
-
-  #search
-  {
-    background-color: #0065FC;
-    color: white;
   }
 
   h2
