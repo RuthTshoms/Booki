@@ -14,16 +14,19 @@
 <body>
   <!-- En-tête infos principales-->
   <header>
+    <div id="logo_et_nav">
     <img src="images/logo/Booki.png" alt="logo Booki" id="logo_Booki" />
-    <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-    <p class="header_info">En plein centre ville ou en pleine nature</p></a>
     <nav> <!-- Menu de navigation -->
       <a href="#Hebergements" class="nav">Hébergements</a>
       <a href="#Activites" class="nav">Activités</a>
     </nav>
+    </div>
+    <div id="header_infos">
+    <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+    <p class="infos">En plein centre ville ou en pleine nature</p></a>
     <form method="post" action="#"> <!-- Barre de recherche -->
         <i class="fa fa-brands fa-periscope" id="maps"></i>
-        <input type="text" name="ville" id="city" placeholder="Marseille, France" /><input type="submit" id="search" value="Rechercher" />
+        <input type="text" name="ville" id="localisation" placeholder="Marseille, France" /><input type="submit" id="Rechercher" value="Rechercher" />
     </form>
     <div> <!-- Filtres -->
       <span><i class="fa fa-solid fa-coins" class="filtre"></i>Economique</span> 
@@ -32,9 +35,10 @@
       <span><i class="fa fa-solid fa-cat" class="filtre"></i>Animaux autorisés</span>
     </div>
     <div>
-    <i class="fa fa-solid fa-info"></i> 
-    <p class="header_info">Plus de 500 logements sont disponibles dans cette ville</p><br />
+      <i class="fa fa-solid fa-info"></i> 
+      <p class="infos">Plus de 500 logements sont disponibles dans cette ville</p><br />
     </div>
+  </div>
   </header>
   <!-- Contenu principal --> 
   <main>

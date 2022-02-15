@@ -2,7 +2,7 @@
   font-family: 'Raleway', sans-serif;
   }
  
-  #Hebergements, #Activites, h2, .item, #more, #city, .option, #search
+  #Hebergements, #Activites, h2, .item, #more, #localisation, #Rechercher
   {
     font-weight: bold;
   }
@@ -22,25 +22,30 @@
     color: #0065FC;
   }
 
-  header
+  #logo_et_nav
   {
     display: flex;
-    padding: 30px;
+    flex-direction : row;
+    justify-content: space-between;
   }
 
-  nav
+  #header_infos
   {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    float : right; /* excliure l'élément du flux */
-    margin: 30px;
-    /* margin: 0px 30px, 0px, 0px; */
+    flex-direction: column;
+  }
+
+  #logo_Booki
+  {
+    width: 85px;
+    height: 55px;
+    padding: 35px;
   }
 
   h1
   {
     font-size: 20px;
+    margin: 0px 30px 15px 20px;
   }
 
   .filtre
@@ -53,6 +58,11 @@
   {
     color: #0065FC;
     text-decoration: overline #0065FC;
+  }
+
+  .nav
+  {
+    margin-left: 30px;
   }
 
   .item a, #more, #city, .option
@@ -74,15 +84,6 @@
   h2
   {
     font-size: 20px;
-  }
-
-  #logo_Booki
-  {
-    display: flex;
-    flex-direction: row; /* voir si nécessaire de flex si par défaut c'est déjà OK */
-    width: 85px;
-    height: 55px;
-    padding: 35px;
   }
 
   img 
