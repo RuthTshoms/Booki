@@ -60,12 +60,33 @@
     margin: 10px 30px 35px 20px;
   }
 
-  #filtre
+  #o
   {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    margin: 0px;
   }
+
+  span
+  {
+    border: 1px grey solid;
+    border-radius: 25px;
+    height: 50px;
+    width: 170px;
+  }
+
+
+  .fa-coins, .fa-child, .fa-heart, .fa-cat
+  {
+    color: #0065FC;
+    border: 12px #cce2f5 solid;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: #cce2f5;
+  }
+
+
 
   input
   {
