@@ -57,7 +57,7 @@
 
   form
   {
-    margin: 10 30px 35px 2P0px;
+    margin: 10px 30px 35px 20px;
   }
 
   #filtre
@@ -70,30 +70,39 @@
   input
   {
     border: 1px whitesmoke solid; 
-    /* display: inline-block; */
   }
 
   input[type="text"]
   {
     padding: 9px;
     border: 0px;
+    font-size: 15px;
   }
 
   #maps
   {
-    background-color: grey;
+    background-color: whitesmoke;
     padding: 9px;
     border: 0px;
-    border-radius: 12 0 0 12px;
+    border-radius: 12px 0 0 12px;
   }
+
+  /* .fa-location-dot
+  {
+    color: red;
+  } */
 
   #Rechercher
   {
     background-color: #0065FC;
     color: white;
+    left: -5px; 
     padding: 9px;
     border: 0px;
+    /* border: none;
+    outline: none; à creuser pour fusionner bouton rechercher à gauche */
     border-radius: 0 12px 12px 0;
+    font-size: 15px;
   }
 
 
