@@ -57,7 +57,7 @@
 
   form
   {
-    margin: 10 30px 35px 30px;
+    margin: 10 30px 35px 2P0px;
   }
 
   #filtre
@@ -67,18 +67,35 @@
     justify-content: space-around;
   }
 
-  #Rechercher
+  input
   {
-    background-color: #0065FC;
-    color: white;
-    padding: 8px;
-    border-radius: 0 12px 12px 0;
+    border: 1px whitesmoke solid; 
+    /* display: inline-block; */
+  }
+
+  input[type="text"]
+  {
+    padding: 9px;
+    border: 0px;
   }
 
   #maps
   {
     background-color: grey;
+    padding: 9px;
+    border: 0px;
+    border-radius: 12 0 0 12px;
   }
+
+  #Rechercher
+  {
+    background-color: #0065FC;
+    color: white;
+    padding: 9px;
+    border: 0px;
+    border-radius: 0 12px 12px 0;
+  }
+
 
   .filtre
   {
