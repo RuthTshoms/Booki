@@ -2,7 +2,7 @@
   font-family: 'Raleway', sans-serif;
   }
  
-  #Hebergements, #Activites, h2, .item, #more, #lieux, #Rechercher, #lieux
+  #Hebergements, #Activites, h2, .item_act, .item, #afficher_plus, #lieux, #Rechercher, #lieux
   {
     font-weight: bold;
   }
@@ -60,7 +60,7 @@
     margin: 10px 30px 35px 20px;
   }
 
-  #o
+  #filtres
   {
     display: flex;
     flex-direction: row;
@@ -130,7 +130,7 @@
   .filtre
   {
     background-color: #cce2f5;
-    border-radius :s
+   /* border-radius*/
   }
 
   .nav:hover
@@ -144,7 +144,7 @@
     margin-left: 30px;
   }
 
-  .item a, #more, #city, .option
+  .item_act a, .item a, #afficher_plus, #lieux, .option
   {
     color: black;
   }
@@ -166,53 +166,74 @@
     height: 100px;
   }
 
-  .p
+  .photo-populaires
   {
     border-radius: 20px;
     width: 125px;
     height: 130px;
   }
 
-  main
-  {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #container1, #container2
+  #container_hebergements, #container_populaires
   {
     border-radius: 20px;
     background-color: #F2F2F2;
   }
 
-  #container1
+  #container_hebergements
   {
-   display: flex; /** appeler la propriété flex **/
+   display: inline-flex; /** appeler la propriété flex **/
    flex-direction: column; /** déf de mon axe ppal **/
-   margin-right: 60px;
+   margin-right: 20px;
    margin-top: 30px;
    margin-left: 30px;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-top: 15px;
+   padding: 15px 30px 210px 30px;
   }
 
-  #container2
+  #container_populaires
   {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
-  }
+  } 
 
-  .block
+  #container_activites
   {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 30px 15px 30px 20px;
+  
+  }
+
+  .bloc_heb
+  {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    justify-content: space-around; /* à voir si nécéssaire de conserver */ 
+    /* justify-content: space-around;  à voir si nécéssaire de conserver */ 
+  }
+
+  #Activites
+  {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .bloc_act_solo
+  {
+    display: flex;
+    flex-direction: column;
+    /*height: 50px;
+    width: 20px;*/
+  } 
+
+ .bloc_act_duo
+  {
+    display: flex;
+    flex-direction: column;
   }
 
   /* .item
