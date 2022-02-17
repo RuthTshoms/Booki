@@ -7,7 +7,7 @@
     font-weight: bold;
   }
  
-  #environnement, #plus_logements, .complement, .link, .nav
+  #environnement, #plus_logements, .complement, .link, .footer_link, .nav
   {
     color: grey;
   }
@@ -149,11 +149,6 @@
     color: black;
   }
 
-  footer, section
-  {
-    background-color: #F2F2F2;
-  }
-
   h2
   {
     font-size: 20px;
@@ -219,7 +214,7 @@
   #Activites
   {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   .bloc_act_solo
@@ -240,4 +235,19 @@
   {
     background-color: white; 
   } */
+
+  footer
+  { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0 0 0; /* voir pourquoi un peu de margin à gauche et à droite */
+    padding: 20px 80px 20px 0px;
+    background-color: #F2F2F2;
+  }
+
+  .footer_link
+  {
+    padding-top: 20px; /* agit sur les titres et non sur les catégories du dessous, à voir */
+  }
   
