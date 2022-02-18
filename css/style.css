@@ -2,12 +2,12 @@
   font-family: 'Raleway', sans-serif;
   }
  
-  #Hebergements, #Activites, h2, h3, .item_act_solo, .item_act_duo, .item, #afficher_plus, #lieux, #Rechercher
+  #Hebergements, #Activites, h2, h3, .item_act_solo, .item_act_duo, .item_heb, .item_pop, #afficher_plus, #lieux, #Rechercher
   {
     font-weight: bold;
   }
  
-  #point_i, #plus_logements, .complement, .link, .footer_link, .nav
+  #point_i, #plus_logements, .prix, .link, .footer_link, .nav
   {
     color: grey;
   }
@@ -20,6 +20,7 @@
   .star
   {
     color: #0065FC;
+    /* padding-lef*/
   }
 
   #logo_et_nav
@@ -143,7 +144,7 @@
     display: inline-block;
   }
 
-  h3, .item_act_duo a, .item_act_solo a .item a, #afficher_plus, #lieux, .option
+  h3, .item_act_duo a, .item_act_solo a, .item_heb, .item_pop a, #afficher_plus, #lieux, .option
   {
     color: black;
   }
@@ -156,23 +157,53 @@
   h2
   {
     font-size: 20px;
+    margin-left: 25px;
+  }
+
+  h3
+  {
+    font-size: 15px;
   }
 
   .img_heb
   {
-    border-radius: 30px;
-    width: 250px;
-    height: 100px;
+    border-radius: 20px 20px 0 0;
+    width: 220px;
+    height: 115px;
     object-fit: cover;
+    margin: 2px;
+    padding: 3px;
   }
 
-  .img_populaires
+  .item_heb
   {
+    background-color: white;
     border-radius: 20px;
+    line-height: 0.6;
+    margin: 20px;
+  }
+
+  .img_pop
+  {
+    border-radius: 20px 0 0 20px;
     width: 125px;
     height: 130px;
     object-fit: cover;
   }
+
+  .item_pop
+  {
+    background-color: white;
+    border-radius: 20px;
+    line-height: 0.8;
+    margin: 20px 0 20px 15px;
+  }
+
+  /* .flex_info_pop
+  {
+    display: inline-flex;
+    flex-direction: row; 
+  }*/
 
   .img_act
   {
@@ -224,8 +255,9 @@
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 20px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 50px;
     padding-top: 15px;
   } 
 
