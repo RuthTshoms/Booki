@@ -2,7 +2,7 @@
   font-family: 'Raleway', sans-serif;
   }
  
-  #Hebergements, #Activites, h2, h3, .item_act_solo, .item_act_duo, .item_heb, .item_pop, #afficher_plus, #lieux, #Rechercher
+  #Hebergements, #Activites, h2, h3, #afficher_plus, #lieux, #Rechercher
   {
     font-weight: bold;
   }
@@ -22,11 +22,16 @@
     text-decoration: none;
   }
 
-  .star
+  .star, .star_line_height
   {
     color: #0065FC;
     font-size: 12px;
   }
+
+  /* .star_line_height
+  {
+    espacement entre étoile et texte   
+  } */
 
   #logo_et_nav
   {
@@ -162,7 +167,7 @@
   h2
   {
     font-size: 20px;
-    margin-left: 25px;
+    margin: 20px 50px 4px 16px;
   }
 
   h3
@@ -184,7 +189,7 @@
     background-color: white;
     border-radius: 20px;
     line-height: 0.6;
-    margin: 20px;
+    margin: 13px;
   }
 
   .img_pop
@@ -201,14 +206,15 @@
     flex-direction: row;
     background-color: white;
     border-radius: 22px;
-    line-height: 0.8;
-    margin: 20px 0 20px 15px;
+    line-height: 0.9;
+    margin: 20px 0 30px 15px;
     padding: 4px 4px 2px 4px;
   }
 
   .flex_info_pop
   {
     float: right;
+    padding: 0 15px 15px 15px;
   } 
 
   .img_act
@@ -249,10 +255,7 @@
   {
    display: inline-flex; /** appeler la propriété flex **/
    flex-direction: column; /** déf de mon axe ppal **/
-   margin-right: 20px;
-   margin-top: 30px;
-   margin-left: 20px;
-   margin-bottom: 60px;
+   margin: 0px 20px 20px 35px;
    padding: 15px 15px 30px 15px;
   }
 
@@ -266,8 +269,8 @@
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 12px;
-    padding-left: 25px;
+    margin-left: 13px;
+    padding-left: 20px;
     padding-right: 25px;
     padding-top: 15px;
   } 
@@ -290,7 +293,7 @@
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    margin: 30px 15px 30px 20px;
+    margin: 0px 15px 30px 35px;
   
   }
 
