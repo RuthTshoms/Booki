@@ -11,6 +11,11 @@
   {
     color: grey;
   }
+
+  .prix
+  {
+    font-size: 14px;
+  }
   
   a
   {
@@ -20,7 +25,7 @@
   .star
   {
     color: #0065FC;
-    /* padding-lef*/
+    font-size: 12px;
   }
 
   #logo_et_nav
@@ -151,7 +156,7 @@
 
   #afficher_plus
   {
-    padding: 30px 100px 35px 20px;
+    padding: 20px 100px 10px 20px;
   }
 
   h2
@@ -169,10 +174,9 @@
   {
     border-radius: 20px 20px 0 0;
     width: 220px;
-    height: 115px;
+    height: 110px;
     object-fit: cover;
-    margin: 2px;
-    padding: 3px;
+    padding: 4px;
   }
 
   .item_heb
@@ -193,17 +197,19 @@
 
   .item_pop
   {
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 22px;
     line-height: 0.8;
     margin: 20px 0 20px 15px;
+    padding: 4px 4px 2px 4px;
   }
 
-  /* .flex_info_pop
+  .flex_info_pop
   {
-    display: inline-flex;
-    flex-direction: row; 
-  }*/
+    float: right;
+  } 
 
   .img_act
   {
@@ -245,9 +251,14 @@
    flex-direction: column; /** déf de mon axe ppal **/
    margin-right: 20px;
    margin-top: 30px;
-   margin-left: 30px;
+   margin-left: 20px;
    margin-bottom: 60px;
-   padding: 15px 30px 210px 30px;
+   padding: 15px 15px 30px 15px;
+  }
+
+  .flex_info_heb
+  {
+    padding: 0 15px 10px 10px;
   }
 
   #container_populaires
@@ -255,11 +266,24 @@
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 50px;
+    margin-left: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 15px;
   } 
+
+  #flex_titrelogo_pop
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fa-chart-line
+  {
+    padding-top: 15px;
+    font-size: 20px;
+  }
 
   #container_activites
   {
@@ -283,11 +307,6 @@
     display: flex;
     flex-direction: row;
   }
-
-  /* .item
-  {
-    background-color: white; 
-  } */
 
   footer
   { 
