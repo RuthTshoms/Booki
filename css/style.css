@@ -260,7 +260,7 @@
   .item_act_solo, .item_act_duo
   {
     /* border-radius: 30px; */
-    margin: 15px 45px 60px 0;
+    margin: 15px 40px 60px 0;
   }
 
   .item_act_solo
@@ -276,16 +276,16 @@
     flex-direction: column;
   }
 
-  .padding_item_act
+  .margin_item_act
   {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 
   #container_activites a 
   {
     background-color: blue;
     box-shadow: 3px 3px 8px whitesmoke;
-    border-radius: 30px;
+    border-radius: 21px;
   }
 
   #container_hebergements, #container_populaires
