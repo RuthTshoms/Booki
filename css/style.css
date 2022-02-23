@@ -220,15 +220,15 @@
   .img_act_solo
   {
     border-radius: 20px 20px 0 0; 
-    width: 280px;
-    height: 340px;
+    width: 270px;
+    height: 355px;
     object-fit: cover;
   }
 
   #img_act_duo_fort
   {
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 260px;
     height: 170px;
     object-fit: cover;
   }
@@ -236,7 +236,7 @@
   #img_act_duo_iles
   {
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 260px;
     height: 98px;
     object-fit: cover;
   }
@@ -244,7 +244,7 @@
   #img_act_duo_dame
   {
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 260px;
     height: 130px;
     object-fit: cover;
   }
@@ -252,7 +252,7 @@
   #img_act_duo_parc
   {
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 260px;
     height: 138px;
     object-fit: cover;
   }
@@ -278,14 +278,19 @@
 
   .margin_item_act
   {
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   #container_activites a 
   {
-    background-color: blue;
+    background-color: white;
     box-shadow: 3px 3px 8px whitesmoke;
     border-radius: 21px;
+  }
+
+  #container_activites h3
+  {
+    padding-left: 10px;
   }
 
   #container_hebergements, #container_populaires
