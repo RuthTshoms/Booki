@@ -10,7 +10,7 @@
   header, main
   {
     max-width: 1280px;
-    margin: 10 auto;  
+    margin: 10 auto; 
   }
 
   #Hebergements, #Activites, h2, h3, #afficher_plus, #lieux, #Rechercher, p, span
@@ -33,7 +33,7 @@
     text-decoration: none;
   }
 
-  .star_blue
+  .star, .star_position
   {
     color: #0065FC;
     font-size: 12px;
@@ -43,20 +43,6 @@
   {
     position: absolute;
     bottom: 15px;
-    color: #0065FC;
-    font-size: 12px;
-  }
-
-  .star_grey
-  {
-    color: grey;
-    font-size: 12px;
-  }
-
-  .flex_star
-  {
-    display: flex; 
-    justify-content: space-around;
   }
 
   #logo_et_nav
@@ -115,7 +101,7 @@
     padding: 0 15px 0 0;
     margin-left: 15px;
     align-items: center;
-    cursor: pointer;  
+    cursor: pointer;
   }
 
   span:hover
@@ -136,8 +122,6 @@
     height: 14px;
     background-color: #cce2f5;
   }
-
-
 
   input
   {
@@ -334,6 +318,7 @@
   {
     display: flex;
     flex-direction: row;
+    /* box-shadow: 3px 3px 8px whitesmoke; */
   }
 
   .item_act_duo
@@ -431,12 +416,18 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    justify-content: space-around; 
+    justify-content: space-around;
     background-color: #F2F2F2;
   }
 
   footer nav
   {
+    padding: 0px 120px 30px 35px;
     line-height: 1.7;
+  }
+
+  .footer_link
+  {
+    padding-top: 20px; /* agit sur les titres et non sur les catégories du dessous, à voir */
   }
   
