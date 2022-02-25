@@ -7,6 +7,12 @@
     margin: 0; /* redéfinition de la margin à 0 */
   }
 
+  header, main
+  {
+    max-width: 1280px;
+    margin: 10 auto;  
+  }
+
   #Hebergements, #Activites, h2, h3, #afficher_plus, #lieux, #Rechercher, p, span
   {
     font-weight: bold;
@@ -27,22 +33,24 @@
     text-decoration: none;
   }
 
-  .star, .star_line_height
+  .star, .star_position
   {
     color: #0065FC;
     font-size: 12px;
   }
 
-  /* .star_line_height
+  .star_position
   {
-    padding-top: 40px; /* agrandit le background... c'est cet ajustement qui alignera le container 
-  } */
+    position: absolute;
+    bottom: 15px;
+  }
 
   #logo_et_nav
   {
     display: flex;
     flex-direction : row;
     justify-content: space-between;
+    /* position: fixed; */
   }
 
   #header_infos
@@ -53,7 +61,6 @@
 
   #logo_Booki
   {
-    width: 85px;
     height: 55px;
     padding: 35px;
   }
@@ -73,6 +80,7 @@
 
   form
   {
+    display: flex;
     margin: 10px 30px 35px 20px;
   }
 
@@ -85,21 +93,22 @@
 
   span
   {
-    border: 1px grey solid;
+    display: flex;
+    font-weight: bold;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
-    height: 40px;
-
-    padding-right: 20px;
-    padding-bottom: 4px;
-    margin-right: 15px;
-    margin-left: 30px;
+    height: 35px;
+    padding: 0 15px 0 0;
+    margin-left: 15px;
+    align-items: center;
+    cursor: pointer;  
   }
 
   span:hover
   {
     background-color: rgb(226, 240, 247);
-    color: white;
-    box-shadow: 3px 3px 8px grey;
+    color: #0065FC;
+    box-shadow: 3px 3px 8px #0065FC;
   }
 
   .fa-coins, .fa-child, .fa-heart, .fa-cat
@@ -107,7 +116,7 @@
     color: #0065FC;
     border: 13px #cce2f5 solid;
     border-radius: 25px;
-    padding: 3px 5px 3px 3px;
+    padding: 3px 5px 1px 3px;
     margin-right: 10px;
     width: 14px;
     height: 14px;
@@ -118,7 +127,7 @@
 
   input
   {
-    border: 1px grey solid;
+    border: 1px #F2F2F2 solid;
     margin: 0px;
   }
 
@@ -158,7 +167,7 @@
     margin-left: 10px;
     color: #0065FC;
     font-size: 12px;
-    border: 1px grey solid;
+    border: 1px #F2F2F2 solid;
     border-radius: 25px;
     height: 20px;
     width: 30px;
@@ -228,7 +237,7 @@
   .item_heb
   {
     background-color: white;
-    box-shadow: 3px 3px 8px whitesmoke;
+    box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 20px;
     line-height: 0.6;
     margin: 13px;
@@ -246,8 +255,9 @@
   {
     display: flex;
     flex-direction: row;
+    position: relative;
     background-color: white;
-    box-shadow: 3px 3px 8px whitesmoke;
+    box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 22px;
     line-height: 0.9;
     margin: 20px 0 30px 15px;
@@ -310,7 +320,6 @@
   {
     display: flex;
     flex-direction: row;
-    /* box-shadow: 3px 3px 8px whitesmoke; */
   }
 
   .item_act_duo
@@ -327,7 +336,7 @@
   #container_activites a 
   {
     background-color: white;
-    box-shadow: 3px 3px 8px whitesmoke;
+    box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 21px;
   }
 
@@ -408,19 +417,12 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    /* justify-content: space-around; */
-    padding: 20px 80px 20px 0px; 
+    justify-content: space-around; 
     background-color: #F2F2F2;
   }
 
   footer nav
   {
-    padding: 0px 120px 30px 35px;
     line-height: 1.7;
-  }
-
-  .footer_link
-  {
-    padding-top: 20px; /* agit sur les titres et non sur les catégories du dessous, à voir */
   }
   
