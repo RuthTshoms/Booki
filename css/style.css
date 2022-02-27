@@ -33,16 +33,25 @@
     text-decoration: none;
   }
 
-  .star, .star_position
+  .star_blue
   {
+    display: flex;
     color: #0065FC;
     font-size: 12px;
   }
 
+  .star_grey
+  {
+    color: rgb(202, 198, 198)
+  }
+
   .star_position
   {
+    display: flex;
     position: absolute;
     bottom: 15px;
+    color: #0065FC;
+    font-size: 12px;
   }
 
   #logo_et_nav
