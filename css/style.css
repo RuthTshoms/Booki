@@ -9,11 +9,11 @@
 
   header, main
   {
-    max-width: 1280px;
+    max-width: 1280px; /* centrer la page */
     margin: 10 auto; 
   }
 
-  #Hebergements, #Activites, h2, h3, #afficher_plus, #lieux, #Rechercher, p, span
+  #Hebergements, #Activites, h2, h3, #afficher_plus, #lieux, #Rechercher, p, span, ::placeholder
   {
     font-weight: bold;
   }
@@ -21,6 +21,11 @@
   #ville_nature, #plus_logements, .prix, .link, .footer_link, .nav
   {
     color: grey;
+  }
+
+  h3, .item_act_duo a, .item_act_solo a, .item_heb, .item_pop a, #afficher_plus, #lieux, ::placeholder
+  {
+    color: black;
   }
 
   .prix
@@ -42,10 +47,11 @@
 
   .star_grey
   {
-    color: rgb(202, 198, 198)
+    display: flex;
+    color: rgb(202, 198, 198);
   }
 
-  .star_position
+  .star_blue_position
   {
     display: flex;
     position: absolute;
@@ -57,15 +63,16 @@
   #logo_et_nav
   {
     display: flex;
-    flex-direction : row;
     justify-content: space-between;
-    /* position: fixed; */
+    /* position: fixed;
+    top: 0; */
   }
 
   #header_infos
   {
     display: flex;
     flex-direction: column;
+    /* margin-top: 200px; */
   }
 
   #logo_Booki
@@ -96,7 +103,6 @@
   #filtres
   {
     display: flex;
-    flex-direction: row;
     margin-left: 35px;
   }
 
@@ -156,10 +162,8 @@
   {
     background-color: #0065FC;
     color: white;
-    left: -10px; 
     padding: 13px 16px;
     border: 0;
-    outline: none; /* à creuser pour fusionner bouton rechercher à gauche */
     border-radius: 0 12px 12px 0;
     font-size: 15px;
   }
@@ -167,7 +171,6 @@
   .fa-info
   {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-top: 10px;    
     margin-top: 10px;
@@ -185,7 +188,6 @@
   #flex_point_i
   {
     display: flex;
-    flex-direction: row;
     margin-top: 20px;
     margin-left: 25px;
   }
@@ -209,11 +211,6 @@
     padding-top: 10px;
     border-top: 1px solid white;
     display: inline-block;
-  }
-
-  h3, .item_act_duo a, .item_act_solo a, .item_heb, .item_pop a, #afficher_plus, #lieux
-  {
-    color: black;
   }
 
   #afficher_plus
@@ -261,13 +258,12 @@
   .item_pop
   {
     display: flex;
-    flex-direction: row;
     position: relative;
     background-color: white;
     box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 22px;
     line-height: 0.9;
-    margin: 20px 0 30px 15px;
+    margin: 20px 0 36px 15px;
     padding: 4px 4px 2px 4px;
   }
 
@@ -319,15 +315,12 @@
 
   .item_act_solo, .item_act_duo
   {
-    /* border-radius: 30px; */
     margin: 15px 40px 60px 0;
   }
 
   .item_act_solo
   {
     display: flex;
-    flex-direction: row;
-    /* box-shadow: 3px 3px 8px whitesmoke; */
   }
 
   .item_act_duo
@@ -361,8 +354,8 @@
 
   #container_hebergements
   {
-   display: inline-flex; /** appeler la propriété flex **/
-   flex-direction: column; /** déf de mon axe ppal **/
+   display: inline-flex; 
+   flex-direction: column; 
    margin: 0px 20px 20px 35px;
    padding: 15px 15px 30px 15px;
   }
@@ -386,7 +379,6 @@
   #flex_titrelogo_pop
   {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -399,7 +391,6 @@
   #container_activites
   {
     display: flex;
-    flex-direction: row;
     border-radius: 20px;
     margin: 0px 15px 30px 35px;
   
@@ -408,22 +399,18 @@
   .bloc_heb
   {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* justify-content: space-around;  à voir si nécéssaire de conserver */ 
+    justify-content: space-between;  
   }
 
   #Activites
   {
     display: flex;
-    flex-direction: row;
     margin-left: 35px;
   }
 
   footer
   { 
     display: flex;
-    flex-direction: row;
     margin: 0;
     justify-content: space-around;
     background-color: #F2F2F2;
@@ -437,6 +424,6 @@
 
   .footer_link
   {
-    padding-top: 20px; /* agit sur les titres et non sur les catégories du dessous, à voir */
+    padding-top: 20px;
   }
   
