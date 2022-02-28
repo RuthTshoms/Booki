@@ -14,53 +14,6 @@
     margin: 10 auto; 
   }
 
-  #Hebergements, #Activites, h2, h3, #h3_line_height, #afficher_plus, #lieux, #Rechercher, p, span, ::placeholder
-  {
-    font-weight: bold;
-  }
- 
-  #ville_nature, #plus_logements, .prix, .link, .footer_link, .nav
-  {
-    color: grey;
-  }
-
-  h3, #h3_line_height, .item_act_duo a, .item_act_solo a, .item_heb, .item_pop a, #afficher_plus, #lieux, ::placeholder
-  {
-    color: black;
-  }
-
-  .prix
-  {
-    font-size: 14px;
-  }
-  
-  a
-  {
-    text-decoration: none;
-  }
-
-  .star_blue
-  {
-    display: flex;
-    color: #0065FC;
-    font-size: 12px;
-  }
-
-  .star_grey
-  {
-    display: flex;
-    color: rgb(202, 198, 198);
-  }
-
-  .star_blue_position
-  {
-    display: flex;
-    position: absolute;
-    bottom: 15px;
-    color: #0065FC;
-    font-size: 12px;
-  }
-
   #logo_et_nav
   {
     display: flex;
@@ -70,16 +23,8 @@
     left: 0;
     right: 0;
     width: 100%;
-    /* border: 1px solid rgb(202, 198, 198); effacer*/
     background-color: white;
     z-index: 2; /* place logo_nav au dessus de img_pop */
-  }
-
-  #header_infos
-  {
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 200px; */
   }
 
   #logo_Booki
@@ -88,13 +33,34 @@
     padding: 35px;
   }
 
+  .nav
+  {
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    display: inline-block;
+  }
+
+  .nav:hover
+  {
+    color: #0065FC;
+    border-top: 1px solid blue;
+  }
+
+  #header_infos
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
   h1
   {
     font-size: 20px;
     margin: 0px 30px 13px 20px;
   }
 
- #ville_nature
+  #ville_nature
   {
     font-size: 15px;
     margin: 0px 30px 15px 20px;
@@ -105,6 +71,36 @@
   {
     display: flex;
     margin: 10px 30px 35px 20px;
+  }
+
+  input
+  {
+    border: 1px #F2F2F2 solid;
+    margin: 0px;
+  }
+
+  input[type="text"]
+  {
+    padding: 11px 14px;
+    font-size: 15px;
+  }
+
+  #maps
+  {
+    background-color: whitesmoke;
+    padding: 13px 16px 15px 16px;
+    border: 0px;
+    border-radius: 12px 0 0 12px;
+  }
+
+  #Rechercher 
+  {
+    background-color: #0065FC;
+    color: white;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 0 12px 12px 0;
+    font-size: 15px;
   }
 
   #filtres
@@ -145,34 +141,10 @@
     background-color: #cce2f5;
   }
 
-  input
+  #plus_logements
   {
-    border: 1px #F2F2F2 solid;
-    margin: 0px;
-  }
-
-  input[type="text"]
-  {
-    padding: 11px 14px;
-    font-size: 15px;
-  }
-
-  #maps
-  {
-    background-color: whitesmoke;
-    padding: 13px 16px 15px 16px;
-    border: 0px;
-    border-radius: 12px 0 0 12px;
-  }
-
-  #Rechercher 
-  {
-    background-color: #0065FC;
-    color: white;
-    padding: 13px 16px;
-    border: 0;
-    border-radius: 0 12px 12px 0;
-    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 0;
   }
 
   .fa-info
@@ -188,8 +160,6 @@
     border-radius: 25px;
     height: 20px;
     width: 30px;
-    
-
   }
 
   #flex_point_i
@@ -197,32 +167,21 @@
     display: flex;
     margin-top: 20px;
     margin-left: 25px;
+  }  
+
+  #Hebergements, #Activites, h2, h3, #h3_line_height, #afficher_plus, #lieux, #Rechercher, p, span, ::placeholder
+  {
+    font-weight: bold;
+  }
+ 
+  #ville_nature, #plus_logements, .prix, .link, .footer_link, .nav
+  {
+    color: grey;
   }
 
-  #plus_logements
+  h3, #h3_line_height, .item_act_duo a, .item_act_solo a, .item_heb, .item_pop a, #afficher_plus, #lieux, ::placeholder
   {
-    margin-left: 20px;
-    padding-top: 0;
-  }
-
-  .nav:hover
-  {
-    color: #0065FC;
-    border-top: 1px solid blue;
-  }
-
-  .nav
-  {
-    margin-left: 30px;
-    margin-right: 40px;
-    padding-top: 10px;
-    border-top: 1px solid white;
-    display: inline-block;
-  }
-
-  #afficher_plus
-  {
-    padding: 20px 100px 10px 20px;
+    color: black;
   }
 
   h2
@@ -243,6 +202,51 @@
     margin-top: 12px;
   }
 
+  .prix
+  {
+    font-size: 14px;
+  }
+
+  a
+  {
+    text-decoration: none;
+  }
+
+
+  #container_hebergements, #container_populaires
+  {
+    border-radius: 20px;
+    background-color: #F2F2F2;
+  }
+
+  #container_hebergements
+  {
+   display: inline-flex; 
+   flex-direction: column; 
+   margin: 0px 20px 20px 35px;
+   padding: 15px 15px 30px 15px;
+  }
+
+  .bloc_heb
+  {
+    display: flex;
+    justify-content: space-between;  
+  }
+
+  .item_heb
+  {
+    background-color: white;
+    box-shadow: 3px 5px 15px rgb(202, 198, 198);
+    border-radius: 20px;
+    line-height: 0.6;
+    margin: 13px;
+  }
+
+  .item_heb:hover
+  {
+    animation: bounce 1s;
+  }
+
   .img_heb
   {
     border-radius: 20px 20px 0 0;
@@ -250,6 +254,44 @@
     height: 105px;
     object-fit: cover;
     padding: 4px;
+  }
+
+  .flex_info_heb
+  {
+    padding: 0 15px 10px 10px;
+  }
+
+
+
+  .star_blue
+  {
+    display: flex;
+    color: #0065FC;
+    font-size: 12px;
+  }
+
+  .star_grey
+  {
+    display: flex;
+    color: rgb(202, 198, 198);
+  }
+
+  .star_blue_position
+  {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    color: #0065FC;
+    font-size: 12px;
+  }
+
+  
+
+  
+  
+  #afficher_plus
+  {
+    padding: 20px 100px 10px 20px;
   }
 
   @keyframes bounce { /* créer les keyframes */
@@ -267,20 +309,6 @@
       -webkit-transform: translateY(-10px);
       transform: translateY(-10px);
     }
-  }
-
-  .item_heb
-  {
-    background-color: white;
-    box-shadow: 3px 5px 15px rgb(202, 198, 198);
-    border-radius: 20px;
-    line-height: 0.6;
-    margin: 13px;
-  }
-
-  .item_heb:hover
-  {
-    animation: bounce 1s;
   }
 
   .img_pop
@@ -388,25 +416,6 @@
     padding-left: 10px;
   }
 
-  #container_hebergements, #container_populaires
-  {
-    border-radius: 20px;
-    background-color: #F2F2F2;
-  }
-
-  #container_hebergements
-  {
-   display: inline-flex; 
-   flex-direction: column; 
-   margin: 0px 20px 20px 35px;
-   padding: 15px 15px 30px 15px;
-  }
-
-  .flex_info_heb
-  {
-    padding: 0 15px 10px 10px;
-  }
-
   #container_populaires
   {
     display: inline-flex;
@@ -438,11 +447,6 @@
   
   }
 
-  .bloc_heb
-  {
-    display: flex;
-    justify-content: space-between;  
-  }
 
   #Activites
   {
@@ -468,4 +472,3 @@
   {
     padding-top: 20px;
   }
-  
