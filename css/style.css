@@ -5,6 +5,7 @@
   body
   {
     margin: 0; /* redéfinition de la margin à 0 */
+    padding-top: 125px; /* height de #logo_nav */
   }
 
   header, main
@@ -64,8 +65,14 @@
   {
     display: flex;
     justify-content: space-between;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* border: 1px solid rgb(202, 198, 198); effacer*/
+    background-color: white;
+    z-index: 2; /* place logo_nav au dessus de img_pop */
   }
 
   #header_infos
@@ -260,6 +267,7 @@
     width: 125px;
     height: 130px;
     object-fit: cover;
+    z-index: 1; /* place img_pop en dessous de logo_nav  */
   }
 
   .item_pop
