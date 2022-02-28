@@ -252,6 +252,23 @@
     padding: 4px;
   }
 
+  @keyframes bounce { /* créer les keyframes */
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
   .item_heb
   {
     background-color: white;
@@ -259,6 +276,11 @@
     border-radius: 20px;
     line-height: 0.6;
     margin: 13px;
+  }
+
+  .item_heb:hover
+  {
+    animation: bounce 1s;
   }
 
   .img_pop
@@ -280,6 +302,11 @@
     line-height: 0.9;
     margin: 20px 0 36px 15px;
     padding: 4px 4px 2px 4px;
+  }
+
+  .item_pop:hover
+  {
+    animation: bounce 1s;
   }
 
   .flex_info_pop
