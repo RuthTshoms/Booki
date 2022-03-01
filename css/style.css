@@ -11,7 +11,7 @@
   header, main
   {
     max-width: 1280px; /* centrer la page */
-    margin: 10 auto; 
+    margin: 10px auto; 
   }
 
   #logo_nav
@@ -335,7 +335,7 @@
     box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 22px;
     line-height: 0.9;
-    margin: 20px 0 36px 15px;
+    margin: 20px 0 23px 15px; /* 36px bottom */ 
     padding: 4px 4px 2px 4px;
   }
 
@@ -353,7 +353,7 @@
     z-index: 1; /* place img_pop en dessous de logo_nav  */
   }
 
-  .flex_info_pop
+  .info_pop
   {
     float: right;
     padding: 0 15px 15px 15px;
@@ -463,3 +463,31 @@
   {
     padding-top: 20px;
   }
+
+  @media screen and (min-width: 600px) and (max-width: 1024px)
+  {
+    #container_populaires
+    {
+      display: flex;
+    }
+
+    #flex_titrelogo_pop 
+    {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .fa-chart-line
+    {
+      padding-top: 22px;
+    }
+    
+
+    /*.info_pop
+    {
+
+    }*/
+
+
+  }
+   
