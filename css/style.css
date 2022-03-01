@@ -14,7 +14,7 @@
     margin: 10 auto; 
   }
 
-  #logo_et_nav
+  #logo_nav
   {
     display: flex;
     justify-content: space-between;
@@ -212,6 +212,27 @@
     text-decoration: none;
   }
 
+  .star_blue
+  {
+    display: flex;
+    color: #0065FC;
+    font-size: 12px;
+  }
+
+  .star_grey
+  {
+    display: flex;
+    color: rgb(202, 198, 198);
+  }
+
+  .star_blue_position
+  {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    color: #0065FC;
+    font-size: 12px;
+  }
 
   #container_hebergements, #container_populaires
   {
@@ -242,6 +263,23 @@
     margin: 13px;
   }
 
+  @keyframes bounce { /* créer les keyframes */
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
   .item_heb:hover
   {
     animation: bounce 1s;
@@ -260,64 +298,33 @@
   {
     padding: 0 15px 10px 10px;
   }
-
-
-
-  .star_blue
-  {
-    display: flex;
-    color: #0065FC;
-    font-size: 12px;
-  }
-
-  .star_grey
-  {
-    display: flex;
-    color: rgb(202, 198, 198);
-  }
-
-  .star_blue_position
-  {
-    display: flex;
-    position: absolute;
-    bottom: 15px;
-    color: #0065FC;
-    font-size: 12px;
-  }
-
-  
-
-  
   
   #afficher_plus
   {
     padding: 20px 100px 10px 20px;
   }
 
-  @keyframes bounce { /* créer les keyframes */
-    0%, 20%, 60%, 100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-  
-    40% {
-      -webkit-transform: translateY(-20px);
-      transform: translateY(-20px);
-    }
-  
-    80% {
-      -webkit-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
+  #container_populaires
+  {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 13px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 15px;
+  } 
+
+  #flex_titrelogo_pop
+  {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .img_pop
+  .fa-chart-line
   {
-    border-radius: 20px 0 0 20px;
-    width: 125px;
-    height: 130px;
-    object-fit: cover;
-    z-index: 1; /* place img_pop en dessous de logo_nav  */
+    padding-top: 15px;
+    font-size: 20px;
   }
 
   .item_pop
@@ -337,11 +344,66 @@
     animation: bounce 1s;
   }
 
+  .img_pop
+  {
+    border-radius: 20px 0 0 20px;
+    width: 125px;
+    height: 130px;
+    object-fit: cover;
+    z-index: 1; /* place img_pop en dessous de logo_nav  */
+  }
+
   .flex_info_pop
   {
     float: right;
     padding: 0 15px 15px 15px;
   } 
+
+  #container_activites
+  {
+    display: flex;
+    border-radius: 20px;
+    margin: 0px 15px 30px 35px;
+  }
+
+  .item_act_solo
+  {
+    display: flex;
+  }
+
+  .item_act_duo
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item_act_solo, .item_act_duo
+  {
+    margin: 15px 40px 60px 0;
+  }
+
+  #container_activites a 
+  {
+    background-color: white;
+    box-shadow: 3px 5px 15px rgb(202, 198, 198);
+    border-radius: 21px;
+  }
+
+  .margin_item_act
+  {
+    margin-top: 35px;
+  }
+
+  #Activites
+  {
+    display: flex;
+    margin-left: 35px;
+  }
+
+  #container_activites h3
+  {
+    padding-left: 10px;
+  }
 
   .img_act_solo
   {
@@ -381,77 +443,6 @@
     width: 270px;
     height: 138px;
     object-fit: cover;
-  }
-
-  .item_act_solo, .item_act_duo
-  {
-    margin: 15px 40px 60px 0;
-  }
-
-  .item_act_solo
-  {
-    display: flex;
-  }
-
-  .item_act_duo
-  {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .margin_item_act
-  {
-    margin-top: 35px;
-  }
-
-  #container_activites a 
-  {
-    background-color: white;
-    box-shadow: 3px 5px 15px rgb(202, 198, 198);
-    border-radius: 21px;
-  }
-
-  #container_activites h3
-  {
-    padding-left: 10px;
-  }
-
-  #container_populaires
-  {
-    display: inline-flex;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-left: 13px;
-    padding-left: 20px;
-    padding-right: 25px;
-    padding-top: 15px;
-  } 
-
-  #flex_titrelogo_pop
-  {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .fa-chart-line
-  {
-    padding-top: 15px;
-    font-size: 20px;
-  }
-
-  #container_activites
-  {
-    display: flex;
-    border-radius: 20px;
-    margin: 0px 15px 30px 35px;
-  
-  }
-
-
-  #Activites
-  {
-    display: flex;
-    margin-left: 35px;
   }
 
   footer
