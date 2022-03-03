@@ -474,7 +474,6 @@
 
     #header_infos
     {
-      /* justify-content: center; */
       align-items: center;
     }
 
@@ -502,7 +501,7 @@
 
     #container_populaires
     {
-      display: flex; /*ou inline flex */
+      display: flex;
       flex-direction: column;
       margin: 0 20px 20px 35px;
       padding: 15px 15px 30px 15px;
@@ -518,7 +517,6 @@
     {
       display: flex;
       justify-content: center;
-      /* width: 100px; */
     }
 
     .fa-chart-line
@@ -531,7 +529,7 @@
       display: flex;
       flex-direction: row;
       width: 220px;
-      /* pas de float-right */ 
+      /* on ne veut pas de float-right */ 
     }
 
     .img_pop
@@ -540,13 +538,12 @@
       width: 220px;
       height: 105px;
       object-fit: cover;
-      padding: 4px;
     }
 
-    /*.info_pop
+    .info_pop
     {
-     
-    } */
+      float: none;
+    } 
 
     #container_activites
     {
@@ -596,6 +593,6 @@
       width: 270px;
       height: 355px;
     } 
-    
+
   }
    
