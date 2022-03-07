@@ -5,7 +5,6 @@
   body
   {
     margin: 0; /* redéfinition de la margin à 0 */
-    padding-top: 125px; /* height de #logo_nav */
   }
 
   header, main
@@ -18,10 +17,6 @@
   {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     background-color: white;
     z-index: 2; /* place logo_nav au dessus de img_pop */
@@ -341,7 +336,7 @@
     box-shadow: 3px 5px 15px rgb(202, 198, 198);
     border-radius: 22px;
     line-height: 0.9;
-    margin: 20px 0 23px 15px; /* 36px bottom */ 
+    margin: 20px 0 28px 15px; 
     padding: 4px 4px 2px 4px;
   }
 
@@ -474,6 +469,12 @@
   {
     padding-top: 20px;
   }
+    
+
+  @media screen and (min-width: 1025px)
+  {
+    
+  }
 
   @media screen and (min-width: 600px) and (max-width: 1024px)
   {
@@ -515,12 +516,6 @@
       padding: 15px 15px 30px 15px;
     }
 
-    /* #bloc_pop_media
-    {
-      display: flex;
-      justify-content: space-around;
-    } supprimer */
-
     #flex_titrelogo_pop 
     {
       display: flex;
@@ -537,7 +532,6 @@
       display: flex;
       flex-direction: row;
       width: 220px;
-      /* on ne veut pas de float-right */ 
     }
 
     .img_pop
@@ -573,11 +567,6 @@
       margin-left: 35px;
       padding-top: 10px;
     }
-
-    /* .bloc_act_media
-    {
-      display: flex;
-    }  supprimer */
 
     .item_act_duo 
     {
