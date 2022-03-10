@@ -473,9 +473,10 @@
 
   @media screen and (min-width: 1025px)
   {
-    
+    /* version desktop first */
   }
 
+  /* ------- TABLETTE ------- */
   @media screen and (min-width: 600px) and (max-width: 1024px)
   {
 
@@ -590,6 +591,31 @@
       width: 270px;
       height: 355px;
     } 
+
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 600px)
+  {
+
+    #logo_nav
+    {
+      flex-direction: column;
+    }
+
+    #logo_Booki
+    {
+      display: flex;
+      justify-content: center;
+      width: 70px;
+    }
+
+    .nav
+    {
+      
+    }
+
+
+
 
   }
    
