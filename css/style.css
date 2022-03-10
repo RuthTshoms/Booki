@@ -600,21 +600,61 @@
     #logo_nav
     {
       flex-direction: column;
+      justify-content: center;
     }
 
     #logo_Booki
     {
       display: flex;
-      justify-content: center;
+      /* justify-content: center; */
       width: 70px;
     }
 
     .nav
     {
-      
+      /* centrer et hover au dessus */
     }
 
+    #filtres
+    {
+      flex-direction: column;
+    }
 
+    span
+    {
+      width: 150px;
+      /* flex-flow: wrap; */
+    }
+
+    #container_populaires, #container_hebergements, #container_activites
+    {
+      border-radius: 0;
+    }
+
+    #container_hebergements, #container_populaires
+    {
+     /* width: auto; */
+     /* reverse l'ordre d'apparition */
+    }
+
+    #container_hebergements
+    {
+      background-color: white;
+    }
+
+    #container_activites
+    {
+      /* width: auto; */
+      flex-direction: column;
+    }
+
+    footer
+    {
+      flex-direction: column;
+      width: 100%;
+    }
+
+  
 
 
   }
