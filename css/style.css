@@ -619,10 +619,25 @@
 
     #ville_nature
     {
-      /* annuler font weight bold */
+      font-weight: lighter;
       color: black; 
     }
 
+    #Rechercher 
+    {
+      display: none;
+    }
+
+    .fa-magnifying-glass
+    {
+      background-color: #0065FC;
+      color: white;
+      padding: 13px 16px;
+      border: 0;
+      border-radius: 0 12px 12px 0;
+      font-size: 15px;
+      cursor: pointer;
+    }
 
 
     #filtres
