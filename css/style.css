@@ -40,7 +40,7 @@
   .nav:hover
   {
     color: #0065FC;
-    border-top: 1px solid blue;
+    border-top: 1px solid #0065FC;
   }
 
   #header_infos
@@ -471,11 +471,6 @@
   }
     
 
-  @media screen and (min-width: 1025px)
-  {
-    /* version desktop first */
-  }
-
   /* ------- TABLETTE ------- */
   @media screen and (min-width: 600px) and (max-width: 1024px)
   {
@@ -561,14 +556,6 @@
       display: none;
     }
 
-    #Activites_media
-    {
-      display: flex;
-      justify-content: center;
-      margin-left: 35px;
-      padding-top: 10px;
-    }
-
     .item_act_duo 
     {
       display: flex;
@@ -594,7 +581,7 @@
 
   }
 
-  @media screen and (min-width: 320px) and (max-width: 600px)
+  @media screen and (max-width: 600px)
   {
 
     #logo_nav
@@ -606,14 +593,37 @@
     #logo_Booki
     {
       display: flex;
-      /* justify-content: center; */
-      width: 70px;
+      height: 30px;
+      margin: auto;
     }
 
     .nav
     {
-      /* centrer et hover au dessus */
+      width: 49%;
+      margin: 0;
+      text-align: center;
+      padding-bottom: 10px;
     }
+
+    .nav:hover
+    {
+     border-top: none;
+     border-bottom: 3px solid #0065FC;
+    }
+
+    h1
+    {
+      font-size: 23px;
+      margin-top: 20px;
+    }
+
+    #ville_nature
+    {
+      /* annuler font weight bold */
+      color: black; 
+    }
+
+
 
     #filtres
     {
