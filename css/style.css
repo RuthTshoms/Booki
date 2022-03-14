@@ -667,6 +667,11 @@
       border-radius: 0;
     }
 
+    #Hebergements, #Activites, h2
+    {
+      font-size: 25px;
+    }
+
     #container_hebergements, #container_populaires
     {
      /* width: auto; */
@@ -696,7 +701,49 @@
       display: flex;
       flex-direction: column;
       padding-top: 0;
-      line-height: 0.2;
+      line-height: 0.1;
+      margin-left: 6px;
+    }
+
+    h3, #h3_line_height
+    {
+      font-size: 16px;
+    }
+
+    .star_blue, .star_grey
+    {
+      font-size: 14px;
+    }
+
+    .prix
+    {
+      margin-top: 6px;
+      margin-bottom: 18px;
+      font-size: 16px;
+      font-weight: lighter;
+      color: black;
+    }
+
+    #afficher_plus
+    {
+      padding-left: 15px;
+      font-size: 21px;
+    }
+
+    #container_populaires
+    {
+      margin-left: 0;
+      width: 405px;
+    }
+
+    .item_pop
+    {
+      height: 137px;
+    }
+
+    .img_pop
+    {
+      height: 134px;
     }
 
     #container_activites
@@ -704,6 +751,12 @@
       /* width: auto; */
       flex-direction: column;
     }
+
+    .fa-chart-line
+     {
+        padding-top: 19px;
+        font-size: 25px;
+     }
 
     footer
     {
