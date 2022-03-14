@@ -102,7 +102,7 @@
   #filtres
   {
     display: flex;
-    margin-left: 35px;
+    margin-left: 35px; 
   }
 
   span
@@ -593,7 +593,7 @@
     #logo_Booki
     {
       display: flex;
-      height: 30px;
+      height: 45px;
       margin: auto;
     }
 
@@ -619,7 +619,7 @@
 
     #ville_nature
     {
-      font-weight: lighter;
+      font-weight: lighter; /* voir pour plus de finess */
       color: black; 
     }
 
@@ -642,13 +642,24 @@
 
     #filtres
     {
+      display: inline-flex;
       flex-direction: column;
+      margin-left: 30px
     }
 
     span
     {
       width: 150px;
+      /* width: 196px; pour les animaux autorisés soit aligné */
+      margin-bottom: 10px;
+      margin-left: 0;
       /* flex-flow: wrap; */
+    }
+
+    #plus_logements
+    {
+      font-weight: lighter;
+      color: black;
     }
 
     #container_populaires, #container_hebergements, #container_activites
@@ -665,6 +676,27 @@
     #container_hebergements
     {
       background-color: white;
+      margin: 0;
+    }
+
+    .item_heb
+    {
+      width: 405px;
+      height: 234px;
+    }
+
+    .img_heb
+    {
+      width: 397px;
+      height: 135px;
+    }
+
+    .flex_info_heb
+    {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0;
+      line-height: 0.2;
     }
 
     #container_activites
