@@ -669,30 +669,39 @@
 
     #Hebergements, #Activites, h2
     {
-      font-size: 25px;
+      font-size: 24px;
+      margin-bottom: 28px;
     }
 
     #container_hebergements, #container_populaires
     {
-     /* width: auto; */
      /* reverse l'ordre d'apparition */
     }
 
     #container_hebergements
     {
+      display: block;
+      width: 100%;
       background-color: white;
       margin: 0;
     }
 
     .item_heb
     {
-      width: 405px;
-      height: 234px;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 14px
+    }
+
+    .item_heb a
+    {
+      display: block;
+      width: 100%;
     }
 
     .img_heb
     {
-      width: 397px;
+      width: 98%;
       height: 135px;
     }
 
@@ -727,18 +736,20 @@
     #afficher_plus
     {
       padding-left: 15px;
-      font-size: 21px;
+      font-size: 19px;
     }
 
     #container_populaires
     {
-      margin-left: 0;
-      width: 405px;
+      width: 100%;
+      margin: 0;
     }
 
     .item_pop
     {
       height: 137px;
+      margin: 10px;
+      width: 100%;
     }
 
     .img_pop
