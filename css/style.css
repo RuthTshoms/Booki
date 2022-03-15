@@ -759,7 +759,8 @@
 
     #container_activites
     {
-      /* width: auto; */
+      width: 100%;
+      margin: 22px;
       flex-direction: column;
     }
 
@@ -767,6 +768,31 @@
      {
         padding-top: 19px;
         font-size: 25px;
+     }
+
+     .item_act_solo
+     {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       margin: 0 0 15px 0;
+     }
+
+     .img_act_solo
+     {
+       width: 100%;
+       height: 140px;
+     }
+
+     .item_act_duo
+     {
+       width: 100%;
+     }
+
+    #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame 
+     {
+        width: 100%;
+        height: 140px;
      }
 
     footer
