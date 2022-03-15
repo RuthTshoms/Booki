@@ -472,7 +472,7 @@
     
 
   /* ------- TABLETTE ------- */
-  @media screen and (min-width: 600px) and (max-width: 1024px)
+  @media screen and (min-width: 768px) and (max-width: 992px)
   {
 
     /* ajouter max-width et margin auto */
@@ -581,7 +581,7 @@
 
   }
 
-  @media screen and (max-width: 600px)
+  @media screen and (max-width: 767px) 
   {
 
     #logo_nav
@@ -681,7 +681,7 @@
     #container_hebergements
     {
       display: block;
-      width: 100%;
+      width: 107%;
       background-color: white;
       margin: 0;
     }
@@ -701,7 +701,7 @@
 
     .img_heb
     {
-      width: 98%;
+      width: 99%;
       height: 135px;
     }
 
@@ -741,7 +741,7 @@
 
     #container_populaires
     {
-      width: 100%;
+      width: 107%;
       margin: 0;
     }
 
@@ -749,7 +749,7 @@
     {
       height: 137px;
       margin: 10px;
-      width: 100%;
+      width: 99%;
     }
 
     .img_pop
@@ -759,7 +759,7 @@
 
     #container_activites
     {
-      width: 100%;
+      width: 107%;
       margin: 22px;
       flex-direction: column;
     }
@@ -798,11 +798,9 @@
     footer
     {
       flex-direction: column;
-      width: 100%;
+      width: 120%; 
     }
-
-  
-
+    
 
   }
    
