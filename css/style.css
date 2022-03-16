@@ -673,9 +673,15 @@
       margin-bottom: 28px;
     }
 
-    #container_hebergements, #container_populaires
+    #flex_order_media
     {
-     /* reverse l'ordre d'apparition */
+      display: flex;
+      flex-direction: column;
+    }
+
+    #container_populaires
+    {
+      order: 1;
     }
 
     #container_hebergements
@@ -684,6 +690,7 @@
       width: 107%;
       background-color: white;
       margin: 0;
+      order: 2;
     }
 
     .item_heb
@@ -800,7 +807,7 @@
       flex-direction: column;
       width: 120%; 
     }
-    
+
 
   }
    
