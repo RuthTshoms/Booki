@@ -679,11 +679,6 @@
       flex-direction: column;
     }
 
-    #container_populaires
-    {
-      order: 1;
-    }
-
     #container_hebergements
     {
       display: block;
@@ -748,8 +743,9 @@
 
     #container_populaires
     {
-      width: 100%; /* avec 107% ça marche */
+      width: 115%; 
       margin: 0;
+      order: 1;
     }
 
     .item_pop
@@ -805,7 +801,7 @@
     footer
     {
       flex-direction: column;
-      width: 100%; /* avec 120% ça marche */
+      width: 120%;
     }
 
 
