@@ -495,6 +495,8 @@
     #container_hebergements
     {
       display: flex;
+      justify-content: space-evenly;
+      max-width: none;
     }
 
     #Hebergements
@@ -503,6 +505,10 @@
       justify-content: center;
     }
 
+    #afficher_plus
+    {
+      padding: 19px 23px 6px 158px;
+    }
 
     #container_populaires
     {
