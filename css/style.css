@@ -687,7 +687,7 @@
     #container_hebergements
     {
       display: block;
-      width: 107%;
+      width: 100%;
       background-color: white;
       margin: 0;
       order: 2;
@@ -748,7 +748,7 @@
 
     #container_populaires
     {
-      width: 107%;
+      width: 100%; /* avec 107% ça marche */
       margin: 0;
     }
 
@@ -766,7 +766,7 @@
 
     #container_activites
     {
-      width: 107%;
+      width: 100%;
       margin: 22px;
       flex-direction: column;
     }
@@ -805,7 +805,7 @@
     footer
     {
       flex-direction: column;
-      width: 120%; 
+      width: 100%; /* avec 120% ça marche */
     }
 
 
