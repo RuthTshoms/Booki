@@ -495,8 +495,8 @@
     #container_hebergements
     {
       display: flex;
-      justify-content: space-evenly;
       max-width: none;
+      justify-content: space-around;
     }
 
     #Hebergements
@@ -505,9 +505,19 @@
       justify-content: center;
     }
 
+    .item_heb
+    {
+      width: 42%;
+    }
+
+    .img_heb
+    {
+      width: 157%;
+    }
+
     #afficher_plus
     {
-      padding: 19px 23px 6px 158px;
+      padding: 19px 23px 6px 222px;
     }
 
     #container_populaires
@@ -529,37 +539,43 @@
       padding-top: 22px;
     }
 
+    #flex_media_pop
+    {
+      display: flex;
+    }
+
     .item_pop
     {
       display: flex;
       flex-direction: row;
-      width: 220px;
+      width: 30%;
+      margin-left: 15px;
     }
 
     .img_pop
     {
       border-radius: 20px 20px 0 0;
-      width: 220px;
+      width: 113%;
       height: 105px;
-      object-fit: cover;
     }
 
     .info_pop
     {
       float: none;
+      display: flex;
+      flex-direction: column;
     } 
 
     #container_activites
     {
       flex-direction: column;
       align-items: center;
-      background-color: #F2F2F2;
       border-radius: 20px;
     }
 
     #Activites
     {
-      display: none;
+      justify-content: center;
     }
 
     .item_act_duo 
