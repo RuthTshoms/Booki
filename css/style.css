@@ -637,6 +637,7 @@
       margin: 0;
       text-align: center;
       padding-bottom: 10px;
+      border-bottom: 3px solid transparent; 
     }
 
     .nav:hover
@@ -662,7 +663,7 @@
       display: none;
     }
 
-    .fa-magnifying-glass
+    .fa-search
     {
       background-color: #0065FC;
       color: white;
@@ -681,10 +682,15 @@
       margin-left: 30px
     }
 
+    #filtre p
+    {
+      display: block;
+      width: 100%;
+    }
+
     span
     {
       width: 150px;
-      /* width: 196px; pour les animaux autorisés soit aligné */
       margin-bottom: 10px;
       margin-left: 0;
       /* flex-flow: wrap; */
@@ -705,6 +711,18 @@
     {
       font-size: 24px;
       margin-bottom: 28px;
+      margin-left: 0;
+    }
+
+    /* #Hebergements
+    {
+      margin-left: 0;
+    } */
+
+    #flex_order_media
+    {
+      display: flex;
+      flex-direction: column;
     }
 
     #container_hebergements
@@ -713,6 +731,7 @@
       width: 100%;
       background-color: white;
       margin: 0;
+      padding: 0;
       order: 2;
     }
 
@@ -720,6 +739,7 @@
     {
       width: 100%;
       padding: 0;
+      margin: 0;
       margin-bottom: 14px
     }
 
@@ -793,6 +813,8 @@
       width: 100%;
       margin: 22px;
       flex-direction: column;
+      padding: 0;
+      margin: 0;
     }
 
     .fa-chart-line
