@@ -614,6 +614,7 @@
 
   }
 
+  /* ------ MOBILE ----- */ 
   @media screen and (max-width: 767px) 
   {
 
@@ -704,12 +705,6 @@
     {
       font-size: 24px;
       margin-bottom: 28px;
-    }
-
-    #flex_order_media
-    {
-      display: flex;
-      flex-direction: column;
     }
 
     #container_hebergements
