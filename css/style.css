@@ -714,11 +714,6 @@
       margin-left: 0;
     }
 
-    /* #Hebergements
-    {
-      margin-left: 0;
-    } */
-
     #flex_order_media
     {
       display: flex;
@@ -791,21 +786,28 @@
 
     #container_populaires
     {
-      width: 115%; 
+      width: 100%; 
       margin: 0;
+      padding: 0;
       order: 1;
     }
 
     .item_pop
     {
+      width: 98%;
       height: 137px;
-      margin: 10px;
-      width: 99%;
+      margin-left: 0;
     }
 
     .img_pop
     {
       height: 134px;
+    }
+
+    .info_pop
+    {
+      display: flex;
+      flex-direction: column;
     }
 
     #container_activites
@@ -820,6 +822,7 @@
     .fa-chart-line
      {
         padding-top: 19px;
+        padding-right: 10px;
         font-size: 25px;
      }
 
@@ -851,7 +854,7 @@
     footer
     {
       flex-direction: column;
-      width: 120%;
+      width: 100%;
     }
 
 
