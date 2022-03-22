@@ -677,8 +677,6 @@
 
     #filtres
     {
-      display: inline-flex;
-      flex-direction: column;
       margin-left: 30px
     }
 
@@ -686,14 +684,13 @@
     {
       display: block;
       width: 100%;
-    }
+    } 
 
     span
     {
-      width: 150px;
+      display: inline-flex;
       margin-bottom: 10px;
       margin-left: 0;
-      /* flex-flow: wrap; */
     }
 
     #plus_logements
@@ -730,12 +727,18 @@
       order: 2;
     }
 
+    #Hebergements
+    {
+      padding-left: 30px;
+      margin-top: 30px;
+    }
+
     .item_heb
     {
-      width: 100%;
+      width: 90%;
       padding: 0;
-      margin: 0;
-      margin-bottom: 14px
+      margin: 0 0 14px 30px;
+      
     }
 
     .item_heb a
@@ -780,7 +783,7 @@
 
     #afficher_plus
     {
-      padding-left: 15px;
+      padding-left: 30px;
       font-size: 19px;
     }
 
@@ -788,15 +791,20 @@
     {
       width: 100%; 
       margin: 0;
-      padding: 0;
+      padding: 0 0 30px 0;
       order: 1;
+    }
+
+    #flex_titrelogo_pop
+    {
+      padding: 20px 30px 0 30px;
     }
 
     .item_pop
     {
-      width: 98%;
+      width: 90%;
       height: 137px;
-      margin-left: 0;
+      margin: 0 30px 15px 30px;
     }
 
     .img_pop
@@ -819,6 +827,12 @@
       margin: 0;
     }
 
+    #Activites
+    {
+      margin-top: 50px;
+      padding-left: 30px;
+    }
+
     .fa-chart-line
      {
         padding-top: 19px;
@@ -830,8 +844,9 @@
      {
        display: flex;
        flex-direction: column;
-       width: 100%;
-       margin: 0 0 15px 0;
+       width: 90%;
+       margin: 0;
+       padding-left: 30px;
      }
 
      .img_act_solo
@@ -842,13 +857,21 @@
 
      .item_act_duo
      {
-       width: 100%;
+       width: 90%;
+       padding-left: 30px;
+       margin: 0;
      }
 
     #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame 
      {
         width: 100%;
         height: 140px;
+     }
+
+     #container_activites a
+     {
+       margin-top: 0;
+       margin-bottom: 15px;
      }
 
     footer
