@@ -732,7 +732,7 @@
     {
       padding-left: 30px;
       margin-top: 30px;
-      width: 96%;
+      width: auto;
     }
 
     .item_heb
@@ -883,6 +883,40 @@
       margin-top: 30px; 
     }
 
+  }
+
+  @media screen and (max-width: 729px) and (min-width: 676px)
+  {
+
+    .item_heb, .item_act_solo, .item_act_duo
+    {
+      width: 91%;
+    }
+
+    .item_heb
+    {
+      padding-left: 3px;
+    }
+
+    .img_heb
+    {
+      width: 99%;
+      padding: 2px;
+      padding-top: 5px
+    }
 
   }
+
+  @media screen and (max-width: 674px) and (min-width: 516px)
+  {
+
+    .img_heb
+    {
+      width: 98%;
+      padding-left: 6px;
+    }
+
+  }
+
+
    
