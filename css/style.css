@@ -677,6 +677,7 @@
 
     #filtres
     {
+      display: block;
       margin-left: 30px
     }
 
@@ -731,6 +732,7 @@
     {
       padding-left: 30px;
       margin-top: 30px;
+      width: 96%;
     }
 
     .item_heb
