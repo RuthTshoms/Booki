@@ -918,5 +918,38 @@
 
   }
 
+  @media screen and (max-width: 512px) and (min-width: 434px)
+  {
+
+    .img_heb 
+    {
+      width: 98%;
+    }
+
+    .item_heb, .item_pop
+    {
+      margin-left: 21px;
+    }
+
+    .item_act_solo, .item_act_duo
+    {
+      padding-left: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 433px) and (min-width: 372px)
+  {
+
+
+
+  }
+
+  @media screen and (max-width: 371px) and (min-width: 320px)
+  {
+
+
+    
+  }
 
    
