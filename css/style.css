@@ -1091,7 +1091,7 @@
 
   }
 
-  @media screen and (max-width: 364px) and (min-width: 320px)
+  @media screen and (max-width: 364px) and (min-width: 359px)
   {
 
     #Hebergements, #Activites, h2, .fa-chart-line 
@@ -1142,6 +1142,37 @@
     {
       width: 85%;
     }
+
+}
+
+@media screen and (max-width: 358px) and (min-width: 320px)
+{
+
+
+  #Hebergements, #Activites, h2, .fa-chart-line
+  {
+    font-size: 19px;
+  }
+
+  .item_pop
+  {
+    height: 115px;
+  }
+
+  .img_pop
+  {
+    height: 112px;
+  }
+
+  h3, #h3_line_height, .prix
+  {
+    font-size: 12px;
+  }
+
+  .star_blue_position
+  {
+    font-size: 11px;
+  }
 
 
 
