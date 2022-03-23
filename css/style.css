@@ -658,6 +658,11 @@
       color: black; 
     }
 
+    input[type="text"] 
+    {
+      padding: 14px 14px;
+    }
+
     #Rechercher 
     {
       display: none;
@@ -669,7 +674,7 @@
       color: white;
       padding: 13px 16px;
       border: 0;
-      border-radius: 0 12px 12px 0;
+      border-radius: 12px;
       font-size: 15px;
       cursor: pointer;
     }
@@ -769,9 +774,14 @@
       font-size: 16px;
     }
 
-    .star_blue, .star_grey
+    .star_blue
     {
       font-size: 14px;
+    }
+
+    .star_grey 
+    {
+        font-size: 1em;
     }
 
     .prix
@@ -938,10 +948,27 @@
 
   }
 
-  @media screen and (max-width: 433px) and (min-width: 372px)
+  @media screen and (max-width: 433px) and (min-width: 394px)
   {
+    .item_heb, .item_act_solo, .item_act_duo
+    {
+      width: 87%;
+    }
 
+    .item_pop
+    {
+    width: 85%;
+    }
 
+    .img_heb 
+    {
+      width: 98%;
+    }
+
+    #Hebergements, #Activites, h2, .fa-chart-line, h1 
+    {
+      font-size: 22px;
+    }
 
   }
 
@@ -949,7 +976,7 @@
   {
 
 
-    
+
   }
 
    
