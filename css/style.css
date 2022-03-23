@@ -1044,11 +1044,21 @@
     {
       font-size: 23px;
     }
-    
+
+    .item_heb 
+    {
+      width: 87%;
+    }
+
     .img_heb
     {
       width: 97%;
       padding-left: 5px;
+    }
+
+    .star_blue 
+    {
+      font-size: 12px;
     }
 
 
@@ -1058,31 +1068,93 @@
       margin-left: 25px;
     }
 
+    .info_pop
+    {
+      padding: 0;
+      padding-left: 13px;
+    }
+
+    h3, #h3_line_height 
+    {
+      font-size: 15px;
+    }
+
+    .prix
+    {
+      font-size: 15px;
+    }
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 85%;
+    }
+
   }
 
- /* @media screen and (max-width: 371px) and (min-width: 363px)
+  @media screen and (max-width: 364px) and (min-width: 320px)
   {
 
-    .item_pop
+    #Hebergements, #Activites, h2, .fa-chart-line 
     {
-      height: 118px;
+      font-size: 22px;
     }
 
-    .img_pop
+    .item_heb
     {
-      height: 116px;
+      width: 88%;
+      margin-left: 20px;
     }
 
-    .info_pop
+    .img_heb 
+    {
+      width: 97%;
+      height: 105px;
+      padding-left: 5px;
+    }
+
+    #flex_titrelogo_pop
+    {
+      padding-left: 20px;
+    }
+
+    .fa-chart-line
+    {
+      padding-right: 0;
+    }
+
+    h3, #h3_line_height 
     {
       font-size: 14px;
     }
 
-    .star_blue_position 
+    .prix
     {
-      font-size: 11px;
+      font-size: 14px;
     }
 
-  } */
+    .item_pop 
+    {
+      width: 87%;
+      margin-left: 20px;
+    }
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 85%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+  
+
+    
 
    
