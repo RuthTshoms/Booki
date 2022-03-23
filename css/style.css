@@ -1157,11 +1157,18 @@
   .item_pop
   {
     height: 115px;
+    margin-left: 15px;
   }
 
   .img_pop
   {
     height: 112px;
+  }
+
+  .info_pop
+  {
+    padding: 0;
+    padding-left: 10px;
   }
 
   h3, #h3_line_height, .prix
@@ -1173,6 +1180,17 @@
   {
     font-size: 11px;
   }
+
+  #flex_titrelogo_pop 
+  {
+    padding-left: 15px;
+  }
+
+  .fa-chart-line
+  {
+    padding-right: 0;
+  }
+
 
 
 
