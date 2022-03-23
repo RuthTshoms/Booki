@@ -972,11 +972,117 @@
 
   }
 
-  @media screen and (max-width: 371px) and (min-width: 320px)
+  @media screen and (max-width: 393px) and (min-width: 372px)
   {
 
+    .item_pop
+    {
+      width: 83%;
+    }
 
+    .info_pop
+    {
+      padding: 0;
+      padding-left: 15px;
+    }
+
+    .star_blue_position
+    {
+    font-size: 11px;
+    }
+
+    .item_heb 
+    {
+      width: 85%;
+    }
+
+    .img_heb 
+    {
+      width: 98%;
+    }
+
+    .prix, h3, #h3_line_height
+    {
+      font-size: 15px;
+    }
+
+    .star_blue 
+    {
+      font-size: 12px;
+    }
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 85%;
+    }
+
+    #Hebergements, #Activites, h2 
+    {
+      font-size: 22px;
+    }
+
+    #afficher_plus 
+    {
+      font-size: 17px;
+    }
+
+    h1 
+    {
+      font-size: 21px;
+    }
 
   }
+
+  @media screen and (max-width: 371px) and (min-width: 363px)
+  {
+
+    h1 
+    {
+      font-size: 21px;
+    }
+    #Hebergements, #Activites, h2, .fa-chart-line 
+    {
+      font-size: 23px;
+    }
+    
+    .img_heb
+    {
+      width: 97%;
+      padding-left: 5px;
+    }
+
+
+    .item_pop 
+    {
+      width: 85%;
+      margin-left: 25px;
+    }
+
+  }
+
+ /* @media screen and (max-width: 371px) and (min-width: 363px)
+  {
+
+    .item_pop
+    {
+      height: 118px;
+    }
+
+    .img_pop
+    {
+      height: 116px;
+    }
+
+    .info_pop
+    {
+      font-size: 14px;
+    }
+
+    .star_blue_position 
+    {
+      font-size: 11px;
+    }
+
+  } */
 
    
