@@ -1154,6 +1154,11 @@
     font-size: 19px;
   }
 
+  h1
+  {
+    font-size: 20px;
+  }
+
   .item_pop
   {
     height: 115px;
@@ -1191,8 +1196,32 @@
     padding-right: 0;
   }
 
+  #Hebergements, #Activites
+  {
+    padding-left: 15px;
+  }
 
+  .item_heb
+  {
+    margin-left: 15px;
+  }
 
+  .img_heb 
+  {
+    width: 97%;
+    height: 119px;
+  }
+
+  #afficher_plus 
+  {
+    font-size: 17px;
+    padding-left: 18px;
+  }
+
+  .item_act_solo, .item_act_duo
+  {
+    padding-left: 15px;
+  }
 
 }
 
