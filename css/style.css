@@ -475,8 +475,6 @@
   @media screen and (min-width: 768px) and (max-width: 992px)
   {
 
-    /* ajouter max-width et margin auto */
-
     #header_infos
     {
       align-items: center;
@@ -492,9 +490,24 @@
       padding-top: 40px;
     }
 
+    .fa-search
+    {
+      display: none;
+    }
+
     #filtres
     {
       margin-right: 15px;
+    }
+
+    #Hebergements, #Activites, h2
+    {
+      font-size: 22px;
+    }
+
+    h2
+    {
+      margin: 0px 50px 10px 16px;
     }
 
     #container_hebergements
@@ -502,6 +515,9 @@
       display: flex;
       max-width: none;
       justify-content: space-around;
+      width: 94%;
+      margin-left: 8px;
+      margin-top: 45px;
     }
 
     #Hebergements
@@ -512,12 +528,13 @@
 
     .item_heb
     {
+      display: block;
       width: 42%;
     }
 
     .img_heb
     {
-      width: 157%;
+        width: 97%;
     }
 
     #afficher_plus
@@ -529,8 +546,9 @@
     {
       display: flex;
       flex-direction: column;
-      margin: 0 20px 20px 35px;
-      padding: 15px 15px 30px 15px;
+      margin: 45px 20px 20px 15px;
+      padding: 15px 15px 30px 8px;
+      width: 94%;
     }
 
     #flex_titrelogo_pop 
@@ -541,7 +559,8 @@
 
     .fa-chart-line
     {
-      padding-top: 22px;
+      padding-top: 4px;
+      padding-left: 50px;
     }
 
     #flex_media_pop
@@ -551,16 +570,16 @@
 
     .item_pop
     {
-      display: flex;
+      display: block;
       flex-direction: row;
       width: 30%;
-      margin-left: 15px;
+      margin-left: 12px;
     }
 
     .img_pop
     {
       border-radius: 20px 20px 0 0;
-      width: 113%;
+      width: 100%;
       height: 105px;
     }
 
@@ -571,16 +590,17 @@
       flex-direction: column;
     } 
 
-    #container_activites
+    #container_activites 
     {
-      flex-direction: column;
-      align-items: center;
-      border-radius: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     #Activites
     {
       justify-content: center;
+      margin-top: 45px;
     }
 
     .flex_act_media
@@ -612,9 +632,14 @@
       height: 355px;
     } 
 
+    footer nav 
+    {
+      padding-right: 116px;
+    }
+
   }
 
-  /* ------ MOBILE ----- */ 
+  /* ---------- // -------- M O B I L E ------ //---------- */ 
   @media screen and (max-width: 767px) 
   {
 
