@@ -99,6 +99,11 @@
     cursor: pointer;
   }
 
+  .fa-search
+  {
+    display: none;
+  }
+
   #filtres
   {
     display: flex;
@@ -468,6 +473,78 @@
   .footer_link
   {
     padding-top: 20px;
+  }
+
+  @media screen and (min-width: 993px)
+  {
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 200px;
+    }
+
+    .img_act_solo, #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame 
+    {
+      width: 200px;
+    }
+
+    #container_hebergements
+    {
+      width: 63%;
+      margin-left: 20px;
+    }
+
+    .item_heb
+    {
+      width: 180px;
+    }
+
+    .img_heb
+    {
+      width: 172px;
+      height: 86px;
+    }
+
+    #container_populaires
+    {
+      width: 26%;
+      padding-left: 13px;
+      padding-right: 19px;
+    }
+
+    .item_pop
+    {
+      width: 97%;
+      margin-left: 6px;
+    }
+
+    .img_pop
+    {
+      width: 88px;
+      height: 106px;
+    }
+
+    .info_pop
+    {
+      padding: 4px;
+    }
+
+    h3, #h3_line_height
+    {
+      font-size: 13px;
+    }
+
+    .prix
+    {
+      font-size: 12px;
+    }
+
+    .star_blue_position
+    {
+      font-size: 10px;
+    }
+    
+
   }
     
 
