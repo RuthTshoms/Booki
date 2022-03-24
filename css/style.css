@@ -590,6 +590,11 @@
       flex-direction: column;
     } 
 
+    .prix
+    {
+      margin-top: 0;
+    }
+
     #container_activites 
     {
       flex-direction: row;
