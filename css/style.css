@@ -639,7 +639,7 @@
 
   }
 
-  @media screen and (min-width: 830px) and (max-width: 992px)
+  @media screen and (min-width: 830px) and (max-width: 979px)
   {
 
     .img_heb 
@@ -648,6 +648,33 @@
     }
 
   }
+
+  @media screen and (min-width: 980px) and (max-width: 992px)
+  {
+
+    #container_activites
+    {
+      margin-left: 36px;
+    }
+
+    .img_heb 
+    {
+      width: 98%;
+    }
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 280px;
+    }
+
+    .img_act_solo, #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame 
+    {
+      width: 280px;
+    }
+
+  }
+
+
 
 
   /* ---------- // -------- M O B I L E ------ //---------- */ 
