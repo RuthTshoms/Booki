@@ -471,7 +471,7 @@
   }
     
 
-  /* ------- TABLETTE ------- */
+  /* ------- // -------- TABLETTE -------- // ------- */
   @media screen and (min-width: 768px) and (max-width: 992px)
   {
 
@@ -638,6 +638,17 @@
     }
 
   }
+
+  @media screen and (min-width: 830px) and (max-width: 992px)
+  {
+
+    .img_heb 
+    {
+      width: 98%;
+    }
+
+  }
+  
 
   /* ---------- // -------- M O B I L E ------ //---------- */ 
   @media screen and (max-width: 767px) 
