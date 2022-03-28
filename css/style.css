@@ -4,7 +4,7 @@
  
   body
   {
-    margin: 0; /* redéfinition de la margin à 0 */
+    margin: 0; /* redéfinition de la marge à 0 */
   }
 
   header, main
@@ -269,7 +269,7 @@
     margin: 13px;
   }
 
-  @keyframes bounce { /* créer les keyframes */
+  @keyframes bounce { /* créer les keyframes - images clées */
     0%, 20%, 60%, 100% {
       -webkit-transform: translateY(0);
       transform: translateY(0);
@@ -469,7 +469,6 @@
   {
     padding-top: 20px;
   }
-
 
 
   @media screen and (min-width: 993px)
@@ -786,8 +785,6 @@
   }
 
 
-
-
   /* ---------- // -------- M O B I L E ------ //---------- */ 
   @media screen and (max-width: 767px) 
   {
@@ -828,7 +825,7 @@
 
     #ville_nature
     {
-      font-weight: lighter; /* voir pour plus de finess */
+      font-weight: lighter; 
       color: black; 
     }
 
