@@ -99,10 +99,10 @@
     cursor: pointer;
   }
 
-  .fa-search
+  /* .fa-search
   {
     display: none;
-  }
+  } */
 
   #filtres
   {
@@ -406,11 +406,6 @@
     margin-left: 35px;
   }
 
-  #Activites_media
-  {
-    display: none;
-  }
-
   #container_activites h3
   {
     padding-left: 10px;
@@ -475,17 +470,25 @@
     padding-top: 20px;
   }
 
+
+
   @media screen and (min-width: 993px)
   {
 
+    #container_activites
+    {
+      justify-content: space-between;
+    }
+
     .item_act_solo, .item_act_duo
     {
-      width: 200px;
+      width: 215px;
+      margin-right: 28px;
     }
 
     .img_act_solo, #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame 
     {
-      width: 200px;
+      width: 215px;
     }
 
     #container_hebergements
@@ -496,13 +499,16 @@
 
     .item_heb
     {
-      width: 180px;
+      display: block;
+      width: 29%;
     }
 
     .img_heb
     {
-      width: 172px;
-      height: 86px;
+      width: 94%;
+      padding: 6px;
+      /* width: 172px;
+      height: 86px; */
     }
 
     #container_populaires
@@ -782,7 +788,7 @@
       margin: 0;
       text-align: center;
       padding-bottom: 10px;
-      border-bottom: 3px solid transparent; 
+      border-bottom: 3px solid #F2F2F2; 
     }
 
     .nav:hover
@@ -817,7 +823,7 @@
     {
       background-color: #0065FC;
       color: white;
-      padding: 13px 16px;
+      padding: 16px;
       border: 0;
       border-radius: 12px;
       font-size: 15px;
@@ -1036,6 +1042,16 @@
       flex-direction: column;
       width: 100%;
       margin-top: 30px; 
+    }
+
+  }
+
+  @media screen and (min-width: 993px) and (max-width: 1267px)
+  {
+
+    #container_populaires
+    {
+      margin-left: 0;
     }
 
   }
