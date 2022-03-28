@@ -83,7 +83,7 @@
   #maps
   {
     background-color: whitesmoke;
-    padding: 13px 16px 15px 16px;
+    padding: 16px;
     border: 0px;
     border-radius: 12px 0 0 12px;
   }
@@ -99,10 +99,10 @@
     cursor: pointer;
   }
 
-  /* .fa-search
+  .fa-search
   {
     display: none;
-  } */
+  }
 
   #filtres
   {
@@ -505,10 +505,9 @@
 
     .img_heb
     {
-      width: 94%;
-      padding: 6px;
-      /* width: 172px;
-      height: 86px; */
+      width: 96%;
+      padding: 4px;
+      height: 98px;
     }
 
     #container_populaires
@@ -549,7 +548,31 @@
     {
       font-size: 10px;
     }
-    
+
+  }
+
+  @media screen and (min-width: 993px) and (max-width: 1267px)
+  {
+
+    #container_populaires
+    {
+      margin-left: 0;
+    }
+
+  }
+
+  @media screen and (min-width: 1145px)
+  {
+
+    .item_act_solo, .item_act_duo
+    {
+      width: 225px;
+    }
+
+    .img_act_solo, #img_act_duo_fort, #img_act_duo_iles, #img_act_duo_parc, #img_act_duo_dame
+    {
+      width: 225px;
+    } 
 
   }
     
@@ -573,10 +596,10 @@
       padding-top: 40px;
     }
 
-    .fa-search
+    /* .fa-search
     {
       display: none;
-    }
+    } */
 
     #filtres
     {
@@ -848,6 +871,7 @@
       display: inline-flex;
       margin-bottom: 10px;
       margin-left: 0;
+      border: 2px solid #F2F2F2;
     }
 
     #plus_logements
@@ -1042,16 +1066,6 @@
       flex-direction: column;
       width: 100%;
       margin-top: 30px; 
-    }
-
-  }
-
-  @media screen and (min-width: 993px) and (max-width: 1267px)
-  {
-
-    #container_populaires
-    {
-      margin-left: 0;
     }
 
   }
@@ -1383,17 +1397,4 @@
   {
     padding-left: 15px;
   }
-
 }
-
-
-
-
-
-
-
-  
-
-    
-
-   
