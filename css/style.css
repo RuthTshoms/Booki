@@ -100,9 +100,14 @@
   }
 
   .fa-search
-  {
-    display: none;
-  }
+   {
+    background-color: white;
+    color: white;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+   }
 
   #filtres
   {
@@ -471,8 +476,14 @@
   }
 
 
+  /* _____ Breakpoint desktop _____ */
   @media screen and (min-width: 993px)
   {
+
+    .fa-search
+   {
+     display: none;
+   }
 
     #container_activites
     {
@@ -550,6 +561,7 @@
 
   }
 
+  /* _____ Breakpoint desktop _____ */
   @media screen and (min-width: 993px) and (max-width: 1267px)
   {
 
@@ -560,6 +572,7 @@
 
   }
 
+  /* _____ Breakpoint desktop _____ */
   @media screen and (min-width: 1145px)
   {
 
@@ -594,11 +607,6 @@
     {
       padding-top: 40px;
     }
-
-    /* .fa-search
-    {
-      display: none;
-    } */
 
     #filtres
     {
@@ -749,6 +757,7 @@
 
   }
 
+  /* _____ Breakpoint tablette _____ */
   @media screen and (min-width: 830px) and (max-width: 979px)
   {
 
@@ -759,6 +768,7 @@
 
   }
 
+  /* _____ Breakpoint tablette _____ */
   @media screen and (min-width: 980px) and (max-width: 992px)
   {
 
