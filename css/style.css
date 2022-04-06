@@ -1,3 +1,5 @@
+/* D E S K T O P  F I R S T  _  version par défaut */
+
 * {
   font-family: 'Raleway', sans-serif;
   }
@@ -1077,6 +1079,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 729px) and (min-width: 676px)
   {
 
@@ -1099,6 +1102,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 674px) and (min-width: 516px)
   {
 
@@ -1110,6 +1114,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 512px) and (min-width: 434px)
   {
 
@@ -1130,6 +1135,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 433px) and (min-width: 394px)
   {
     .item_heb, .item_act_solo, .item_act_duo
@@ -1154,6 +1160,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 393px) and (min-width: 372px)
   {
 
@@ -1215,6 +1222,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 371px) and (min-width: 363px)
   {
 
@@ -1273,6 +1281,7 @@
 
   }
 
+  /* _____ Breakpoint mobile _____ */
   @media screen and (max-width: 364px) and (min-width: 359px)
   {
 
@@ -1325,8 +1334,10 @@
       width: 85%;
     }
 
-}
+  }
 
+
+/* _____ Breakpoint mobile _____ */   
 @media screen and (max-width: 358px) and (min-width: 320px)
 {
 
@@ -1406,6 +1417,7 @@
   }
 }
 
+/* _____ Breakpoint mobile _____ */
 @media screen and (max-width: 319px) and (min-width: 310px)
 {
 
